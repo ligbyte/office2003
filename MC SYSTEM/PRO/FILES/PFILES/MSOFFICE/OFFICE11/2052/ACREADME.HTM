@@ -1,0 +1,59 @@
+﻿<html dir="ltr"><head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="en-us"><META HTTP-EQUIV="assetid" CONTENT="HR01048405"><title>Microsoft Office Access 2003 自述文件</title></head><body><h1>Microsoft Office Access 2003 自述文件</h1><META HTTP-EQUIV="assetid" CONTENT="HR01048405"><title>Microsoft Office Access 2003 自述文件</title>
+
+<style>
+<!--
+	h1	{font-size: 140%; margin-top: .4em;}
+	h2	{font-size: 120%; margin-top: .2em;}
+	h3	{font-size: 100%; margin-top: .2em; font-weight: bold;}
+	h4	{font-size: 100%; margin-top: .2em; font-weight: bold;}
+	h5	{font-size: 100%; margin-top: .2em; font-weight: bold;}
+	body	{bgcolor: #ffffff; font-family: 宋体, Tahoma, Arial, Helvetica, sans-serif; font-size: 75%; }
+	p	{font-size: 100%; margin-left: 2em;}
+	pre	{font-size: 100%; margin-left: 2em;}
+	ol	{font-size: 100%; margin-top: .5em; margin-left: 4em;}
+	ul	{font-size: 100%; margin-top: .5em;; margin-left: 4em;}
+	li	{margin-bottom: .7em; margin-left: 0em;}
+	table	{font-size: 100%; margin-top: 1em; margin-left: 2em;}
+	th	{text-align: left; background: #CCCCCC; margin: .25em; vertical-align: bottom;}
+	tr	{vertical-align: top;}
+	td	{margin: .25em; vertical-align: top; border-bottom: 1px solid #CCCCCC; }
+
+	
+-->
+</style>
+
+
+
+
+<h3>© 2003 Microsoft Corporation。保留所有权利。</h3>
+<p>本文档提供了有关 Microsoft Office Access 2003 的最新信息。</p>
+<h3>如何使用本文档</h3>
+<p>若要在屏幕上查看自述文件，请将浏览器窗口最大化。若要打印自述文件，请单击工具栏上的“打印”<b class="bterm"></b>按钮。</p>
+<hr>
+<h2>目录</h2>
+
+<h3>安装问题</h3><p><a href="#MSDE">Access 2003 中附带有 Microsoft SQL Server 2000 Desktop Engine Service Pack 3</a></p><p><a href="#jet">需要 Microsoft Jet 4.0 的更新版本以便阻止不安全的表达式</a></p><h3>转换到 Microsoft Office Access 2003</h3><p><a href="#Convert">转换早期版本的数据访问页</a></p><p><a href="#RollBack">使用 Access 2003 自带的 Microsoft Office Web Components</a></p><p><a href="#Depend">查看相关性信息</a></p><h5> 
+
+
+
+安全性</h5><p><a href="#wizard">如果禁用了“信任所有安装的加载项和模板”<b class="bterm"></b>，则向导将不可用。</a></p><p><a href="#digisign">在 Access Beta 版中经过数字签名的数据库似乎未经过签名</a>
+
+ 
+</p><p><a href="#Dir">在沙盒模式下 Dir 函数被阻止</a></p><h3>导出、导入和链接数据</h3><p><a href="#Link">链接到 SharePoint 网站</a></p><h3>使用智能标记和主题</h3><p><a href="#AddSmartTag">将智能标记添加到 Access 项目中的表或视图中</a></p><p><a href="#SelectSmartTag">从“智能标记”<b class="ui"></b>属性生成器中选择智能标记</a></p><p><a href="#ThemeReq">对窗体应用主题的要求</a></p><p><a href="#TurnOff">在早期版本的数据库中禁止对窗体应用主题</a></p><hr><h2>安装问题</h2><h3><a id="MSDE" name="MSDE">Access 2003 中附带有 Microsoft SQL Server 2000 Desktop Engine Service Pack 3</a></h3><p>根据本产品的最终用户许可协议，您有权选择安装位于 \MSDE2000 文件夹下的 Microsoft SQL Server 2000 Desktop Engine (MSDE 2000)。</p><p>要获得有关 MSDE 2000 更新的详细信息，请访问 <a href="http://www.microsoft.com/china/technet/default.asp">http://www.microsoft.com/china/technet/default.asp</a> 并搜索与 MSDE 2000 相关联的安全公告。
+
+</p><p>若要安装 SQL Server 2000 Desktop Engine，请双击 Office 2003 或 Access 2003 CD 上 \MSDE2000 文件夹中的 MSDE2KS3.EXE 自解压程序。在默认情况下，所有文件将解压至 c:\sql2ksp3 文件夹中。可以指定其他的位置，但是以下说明是基于该默认位置的。</p><p>必须从命令提示符下安装 MSDE 2000，安装时应使用的命令行选项将有所不同，这完全取决于您是第一次安装 MSDE 2000 还是升级早期版本的 MSDE 2000。</p><p><b class="bterm">新安装</b></p><p>在 Windows“开始”菜单上，单击“运行”，键入“cmd”，然后按 Enter。命令提示窗口显示出来。键入下列命令：</p><pre><code>cd \sql2ksp3\msde
+setup.exe SAPWD="<i>AStrongSAPwd</i>"</code></pre><p>将 <code>"<i>AStrongSAPwd</i>"</code> 替换为 <b class="bterm">sa</b> 登录帐户的高安全性密码。</p><p><b class="bterm">从 SQL Server 2000 Desktop Engine 升级至 Service Pack 3</b></p><p>在 Windows“开始”菜单上，单击“运行”，键入“cmd”，然后按 Enter。命令提示窗口显示出来。键入下列命令：</p><pre><code>cd \sql2ksp3\msde
+setup.exe /upgradesp setup\sqlrun01.msi SAPWD="<i>AStrongSAPwd</i>"</code></pre><p>将 <code>"<i>AStrongSAPwd</i>"</code> 替换为 <b class="bterm">sa</b> 登录帐户的高安全性密码。</p><p><b class="bterm">详细信息</b></p><p>有关安装 SQL Server 2000 Desktop Engine 的详细信息，请参阅 sp3readme.htm 文件；该文件位于包含所有已解压缩的 MSDE 2000 文件的文件夹中（默认情况下为 c:\sql2ksp3\MSDE）。</p><p><b class="bterm">清理</b></p><p>完成安装或升级后，可以删除 c:\sql2ksp3 文件夹。</p><h3><a id="jet" name="jet">需要 Microsoft Jet 4.0 的更新版本以便阻止不安全的表达式</a></h3><p>若要在 Access 2003 中阻止不安全的表达式，则必须从 <a href="http://windowsupdate.microsoft.com">http://windowsupdate.microsoft.com</a> 上下载最新版本的 Microsoft Jet 4.0。通过 Microsoft Jet 4.0 Service Pack 8 (SP8) Access 2003 可以完全发挥作用，但是仍需要通过启用沙盒模式才能让 Jet 阻止不安全的表达式。如果未启用沙盒模式，而且宏安全性也设置为“中”<b class="bterm"></b>或“高”<b class="bterm"></b>，则每次打开文件时将会看到一条安全警告。</p><h2>转换到 Microsoft Office Access 2003</h2><h3><a id="convert" name="convert">转换早期版本的数据访问页
+</a></h3><p>若要转换使用 Access 2000 创建的数据访问页，则您的计算机上必须安装有 Microsoft Office 2000 Web Components。Microsoft Office 2000 和 Microsoft Office XP 中都附带有 Microsoft Office 2000 Web Components。</p><p>使用 Access 2002 创建的数据访问页在使用 Microsoft Office Access 2003 打开之前不需要进行转换。因为 Access 2003 使用的是 Microsoft Office XP Web Components，这与 Access 2002 所使用的恰好是同一个版本。</p><h3><a id="rollback" name="rollback">使用 Access 2003 自带的 Microsoft Office Web Components</a></h3><p>Access 2003 使用 Office XP Web Components 而不是 Office 2003 Web Components。如果使用 Access 2003 测试版并利用 Web 组件来创建数据访问页或应用程序，则需要修改页面或程序代码以便转换成早期版本的 Web 组件。</p><p>若要将 Office 2003 Web Components 转换成 Office XP Web Components，则需要更改组件的 GUID，这样才可以在页面或代码中引用 Office XP 版本的组件。</p><table><tr><th>组件</th><th>Office 2003 Web Components GUID</th><th>Office XP Web Components GUID</th><th>注释</th></tr><tr><td>MSODSC </td><td>CLSID:0002E55B-0000-0000-C000-000000000046    </td><td>CLSID:0002E553-0000-0000-C000-000000000046         </td><td>B 已经更改为 3。</td></tr><tr><td>数据透视表列表</td><td>CLSID:0002E55A-0000-0000-C000-000000000046      </td><td>CLSID:0002E552-0000-0000-C000-000000000046            </td><td>A 已经更改为 2。</td></tr><tr><td>图表</td><td>CLSID:0002E55D-0000-0000-C000-000000000046</td><td>CLSID:0002E556-0000-0000-C000-000000000046</td><td>D 已经更改为 6。</td></tr></table><p><b>注意</b>   不需要对电子表格组件的 GUID 进行更改。</p><h3><a id="depend" name="depend">查看相关性信息</a></h3><p>在 Access 2003 中，可以查看使用选中的对象或者被选中的对象所使用的对象列表。这种功能有助于您理解数据库的设计，从而对数据库进行相应的维护。相关性信息是通过读取“跟踪名称自动更正信息”<b class="ui"></b>功能所创建的名称映射而生成的。请注意，不需要启用“执行名称自动更正”<b class="ui"></b>功能就可以查看相关性信息。
+
+</p><p>在 Access 2002 和早期版本中所创建的名称映射没有包含用于准确跟踪相关性所需的全部信息。如果在 Access 2003 中打开了早期版本的数据库，并且试图查看相关性信息，则将会询问您是否需要更新相关性信息。如果希望查看相关性信息，请选择更新名称映射。</p><h2>安全性</h2><h3><a id="wizard" name="wizard">如果禁用了“信任所有安装的加载项和模板”，则向导将不可用</a></h3><p>如果将宏安全性级别设置为“高”<b class="bterm"></b>或者禁用了“信任所有安装的加载项和模板”<b class="bterm"></b>，将无法运行 Access 2003 中的向导。</p><p>若要查看默认设置或者更改宏安全性设置，请在“工具”<b class="ui"></b>菜单上指向“宏”<b class="ui"></b>，再单击“安全性”<b class="ui"></b>。在“安全级”<b class="ui"></b>选项卡上，默认设置为“中”<b class="ui"></b>。在“可靠发行商”<b class="ui"></b>选项卡上，默认情况下选中了“信任所有安装的加载项和模板”<b class="ui"></b>复选框。使用这些默认安全性设置时，向导能够按预期效果运行。</p><p>如果将安全性级别更改为“高”<b class="ui"></b>并清除了“信任所有安装的加载项和模板”<b class="ui"></b>复选框，向导将无法运行。</p><h3><a id="digisign" name="digisign">在 Access Beta 版中经过数字签名的数据库似乎未经过签名</a></h3><p>当打开在 Access 2003 Beta 版中经过数字签名的数据库时，没有任何指示指明该数据库已经过数字签名，并且 Visual Basic for Applications (VBA) 工程呈锁定状态。 </p><p>要纠正此问题，请在 Access 2003 中将数字签名重新应用于此数据库，然后关闭数据库并再次打开它。
+
+</p><h3><a id="Dir" name="Dir">在沙盒模式下 Dir 函数被阻止</a></h3><p>当 Microsoft Jet 表达式服务配置为以沙盒模式运行时，Dir 函数将被阻止。在表达式中将无法使用该函数，但在 Visual Basic for Applications (VBA) 代码中仍可使用它。 </p><p>有关当 Jet 配置为以沙盒模式运行时将被阻止的函数的详细信息，请参阅 Access 帮助。</p><h2>导出、导入和链接数据</h2><h3><a id="Link" name="Link">链接到 SharePoint 网站</a></h3><p><b class="bterm">链接到具有长名称的列表</b>
+
+</p><p>Access 不能链接到运行 Microsoft Windows SharePoint Services 的网站上名称超过 255 个字符的列表。重命名 SharePoint 网站上的列表，确保其名称长度不要超过 255 个字符，然后再重试链接。</p><p><b class="bterm">刷新并重新查询与列表相链接的数据库对象</b>
+
+</p><p>当要刷新的窗体绑定到与 SharePoint 网站上的列表相链接的表时，Access 不会使用来自源的最新数据更新窗体。它只是重画该窗体。若要获得最新数据，请关闭该窗体并重新打开，或者使用 <b class="ui">Requery</b> 命令。</p><h2>使用智能标记和主题</h2><h3><a id="Addsmarttag" name="Addsmarttag">将智能标记添加到 Access 项目中的表或视图中</a></h3><p>将智能标记添加到 Access 项目中的表或视图中的唯一方法就是使用 Transact-SQL 添加 <b class="ui">MS_SmartTags</b> 扩展属性。在项目中添加智能标记的最简单的方法就是将它们添加到窗体、报表和数据访问页。</p><h3><a id="Selectsmarttag" name="Selectsmarttag">从“智能标记”属性生成器中选择智能标记</a></h3><p>“智能标记”<b class="ui"></b>属性生成器并未列出所有可用的智能标记，而只列出了在 Access 中定义了操作的那些智能标记。</p><h3><a id="ThemeReq" name="ThemeReq">对窗体应用主题的要求</a></h3><p>在 Access 2003 中，如果满足下列要求即可对窗体应用主题：
+
+<ul><li>操作系统为 Microsoft Windows XP SP1 或 Microsoft Windows Server 2003。</li><li>在 Windows 中通过选择默认主题以外的其他主题而启用了主题。</li><li>对数据库中的窗体启用了主题。 </li></ul></p><h3><a id="TurnOff" name="TurnOff">在早期版本的数据库中禁止对窗体应用主题</a></h3><p>在使用 Access 2003 创建的数据库中，默认情况下启用应用主题选项。若要对使用 Access 2002 或者更早版本所创建的数据库中的窗体启用主题，在“工具”菜单上，单击“选项”<b class="ui"></b>，然后在“窗体/报表”<b class="ui"></b>选项卡上，选择“在窗体上使用应用了主题的 Windows 控件”<b class="ui"></b>。</p></body></html>

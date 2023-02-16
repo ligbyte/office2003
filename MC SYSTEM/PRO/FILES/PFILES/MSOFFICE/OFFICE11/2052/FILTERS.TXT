@@ -1,0 +1,68 @@
+MICROSOFT 垃圾邮件筛选自述文件
+
+垃圾邮件和成人内容筛选条件通过查找关键字筛选邮件。本文件说明筛选中要精确查找的字词以及在何处查找这些字词。
+
+垃圾邮件筛选条件包括：
+
+“发件人”框为空
+主题包含 "advertisement"
+正文包含 "money back "
+正文包含 "cards accepted"
+正文包含 "removal instructions"
+正文包含 "extra income"
+主题包含 "!" 且主题包含 "$"
+主题包含 "!" 且主题包含 "free"
+正文包含 ",000" 且正文包含 "!!" 且正文包含 "$"
+正文包含 "f或free?"
+正文包含 "f或free!"
+正文包含 "Guarantee" 且(正文包含 "satisfaction" 或正文包含 "absolute")
+正文包含 "more info " 且正文包含 "visit " 且正文包含 "$"
+正文包含 "SPECIAL PROMOTION"
+正文包含 "one-time mail"
+主题包含 "$$"
+正文包含 "$$$"
+正文包含 "order today"
+正文包含 "order now!"
+正文包含 "money-back guarantee"
+正文包含 "100% satisfied"
+“收件人”框包含 "friend@"
+“收件人”框包含 "public@"
+“收件人”框包含 "success@"
+“发件人”框包含 "sales@"
+“发件人”框包含 "success."
+“发件人”框包含 "success@"
+“发件人”框包含 "mail@"
+“发件人”框包含 "@public"
+“发件人”框包含 "@savvy"
+“发件人”框包含 "profits@"
+“发件人”框包含 "hello@"
+正文包含 " mlm"
+正文包含 "@mlm"
+正文包含 "///////////////"
+正文包含 "check 或money order"
+
+
+成人内容筛选条件包括：
+
+主题包含 " xxx"
+主题包含 "over 18"
+主题包含 "over 21"
+主题包含 "adult s"
+主题包含 "adults only"
+主题包含 "be 18"
+主题包含 "18+"
+正文包含 "over 18"
+正文包含 "over 21"
+正文包含 "must be 18"
+正文包含 "adults only"
+正文包含 "adult web"
+正文包含 "must be 21"
+正文包含 "adult en"
+正文包含 "18+"
+主题包含 "erotic"
+主题包含 "adult en"
+主题包含 " sex"
+正文包含 " xxx "
+正文包含 " xxx!"
+主题包含 "free" 且主题包含 "adult"
+主题包含 "free" 且主题包含 "sex"

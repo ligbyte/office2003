@@ -1,0 +1,438 @@
+<html>
+<head><META HTTP-EQUIV="Content-Type" Content="text/html; charset=utf-8">
+<title>安装程序命令行选项和属性</title>
+</head>
+
+<body>
+
+<p><h2><font face="Verdana">安装程序命令行选项和属性</font></h2></p>
+
+
+<p><font face="Verdana" size="2">当运行安装程序时，可使用命令行选项更改安装程序用于安装应用程序的某些参数，例如安装程序属性的显示设置和默认值。</font></p>
+
+<p><font face="Verdana" size="2">安装程序和 Windows 安装程序使用属性来控制应用程序安装过程。安装程序属性的默认值在 Windows 安装程序包（MSI 文件）中指定。您可在命令行或安装程序设置文件 (Setup.ini) 中指定新属性值。</font> </p>
+
+<blockquote>
+	<p><font face="Verdana" size="2"><b>注意</b>&nbsp;&nbsp; 在大多数情况下，命令行选项会覆盖安装程序设置文件 (Setup.ini) 或转换文件（MST 文件）中的重复自定义。所有 MSI 文件都不支持命令行选项和属性。
+</font></p>
+</blockquote>
+<p>&nbsp;</p>
+<p><font face="Verdana" size="2"><a href="#a">/a</a></font></p>
+<p><font face="Verdana" size="2"><a href="#f">/f</a></font></p>
+<p><font face="Verdana" size="2"><a href="#i">/i</a></font></p>
+<p><font face="Verdana" size="2"><a href="#j">/j</a></font></p>
+<p><font face="Verdana" size="2"><a href="#l">/l</a></font></p>
+<p><font face="Verdana" size="2"><a href="#noreboot">/noreboot</a></font></p>
+<p><font face="Verdana" size="2"><a href="#p">/p</a></font></p>
+<p><font face="Verdana" size="2"><a href="#q">/q</a></font></p>
+<p><font face="Verdana" size="2"><a href="#settings">/settings</a></font></p>
+<p><font face="Verdana" size="2"><a href="#x">/x</a></font></p>
+<p><font face="Verdana" size="2"><a href="#property">property=value</a></font></p>
+<p><font face="Verdana" size="2"><a href="#?">/?</a></font></p>
+<p>&nbsp;</p>
+<p>
+<h2><font face="Verdana"><a name="a"></a>
+/a<i> [msifile</i>]</font></h2>
+<p></p>
+<p><font face="Verdana" size="2">为指定程序包（MSI 文件）创建管理安装路径。该程序包必须位于与 Setup.exe 相同的文件夹中，并且两者必须都位于管理安装路径的根目录中。</font></p>
+
+	<p>
+	<font face="Verdana" size="2">示例：</font></p>
+	<p>
+	<font size="2" face="Courier">/a My.msi</font></p>
+	<p>
+	<font face="Courier" size="2">/a &quot;subfolder1\My.msi&quot;</font></p>
+
+
+<h2><font face="Verdana"><a name="f"></a>
+/f<i>[options][msifile</i>]</font></h2>
+<p></p>
+<p><font face="Verdana" size="2">强制修复与指定程序包（MSI 文件）相关的应用程序。程序包必须位于与 Setup.exe 相同的文件夹中，并且两者必须都位于管理安装路径的根目录中。另外，可为程序包指定产品代码，产品代码可从安装程序设置文件的 [Product] 节复制。</font></p>
+<blockquote>
+	<p>
+	<font face="Verdana" size="2">注意&nbsp;&nbsp; 必须指定与最初用于安装应用程序相同的程序包。</font></p>
+</blockquote>
+
+	<p>
+	<font face="Verdana" size="2">&lt;i&gt;options&lt;/i&gt; 的有效值包括：</font></p>
+<table border="1"width="61%" id="table2">
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">a</font></b></td>
+		<td><font face="Verdana" size="2">不管校验和或版本如何，强制重新安装所有文件。</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">c</font></b></td>
+		<td><font face="Verdana" size="2">重新安装丢失或损坏的文件。</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">d</font></b></td>
+		<td><font face="Verdana" size="2">重新安装丢失或当前具有不同版本的文件。</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">e</font></b></td>
+		<td><font face="Verdana" size="2">重新安装丢失的文件或替换当前相同或较旧版本的文件。</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">m</font></b></td>
+		<td><font face="Verdana" size="2">重写所有必需的 HKEY_LOCAL_MACHINE 注册表项。</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">o</font></b></td>
+		<td><font face="Verdana" size="2">重新安装丢失或当前具有较旧版本的文件。</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">p</font></b></td>
+		<td><font face="Verdana" size="2">仅重新安装丢失的文件。</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">s</font></b></td>
+		<td><font face="Verdana" size="2">重新安装所有快捷方式并覆盖当前快捷方式。</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">u</font></b></td>
+		<td><font face="Verdana" size="2">重写所有必需的 HKEY_CURRENT_USER 注册表项。</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">v</font></b></td>
+		<td><font face="Verdana" size="2">从原始源检索程序包，并将其重新缓存到本地计算机上。</font></td>
+	</tr>
+</table>
+<p><font face="Verdana" size="2">应用程序中的 <b>Detect</b> 和 <b>Repair</b> 命令执行与 <b>/focums</b> 相同的函数。运行安装程序并选择“重新安装”可执行与 <b>/fecums</b> 相同的函数。在安装时，Windows 安装程序将 MSI 文件保存到本地计算机中。在使用 <b>/fvm</b> 选项强制重新缓存和重新安装时，Windows 安装程序会从原始源检索 MSI 文件，并将其重新缓存到本地计算机上。向管理安装路径应用修补程序之后，可使用 <b>/fvm</b> 选项更新客户端计算机。</font></p>
+<blockquote>
+	<p><font face="Verdana" size="2">
+	<b>重要</b>  如果用户将客户端修补程序（双字节）应用到计算机，则无法在该计算机上使用 /f 从更新过的管理安装路径进行重新缓存和重新安装。这种情况下，用户必须卸载并从更新过的管理映像重新安装。</font></p>
+</blockquote>
+
+	<p>
+	<font face="Verdana" size="2">示例：</font></p>
+	<p>
+	<font size="2" face="Courier">/fpiwae My.msi</font></p>
+<p><font size="2" face="Courier">/fvm {12345678-1234-1234-1234-123456789123}</font></p>
+
+
+<h2><font face="Verdana"><a name="i"></a>
+/i<i> [msifile</i>]</font></h2>
+<p><font face="Verdana" size="2">使用特定程序包安装应用程序。程序包必须与 Setup.exe 位于相同的文件夹中。</font></p>
+<blockquote>
+	<p><font face="Verdana" size="2"><b>注意</b>&nbsp;&nbsp;默认情况下，Setup.exe 指引 Windows 安装程序执行与 /i 相同的函数。</font></p>
+</blockquote>
+
+	<p>
+	<font face="Verdana" size="2">示例：</font></p>
+	<p>
+	<font size="2" face="Courier">/i My.msi</font></p>
+	<p>
+	<font face="Courier" size="2">/i "subfolder1\My.msi"</font></p>
+
+
+
+
+<h2><font face="Verdana"><a name="j"></a>
+/j<i>[option] [msifile] [/t mstfile]</i></font></h2>
+<p></p>
+<p><font face="Verdana" size="2">在计算机上公布应用程序，并在第一次使用时安装；必须指定选项将应用程序公布给计算机或用户。当从管理安装路径或网络上的光盘映像运行安装程序时，可以仅使用 /j。如果未指定程序包，则安装程序将使用 Setup.ini 中指定的程序包。若要对公布的应用程序应用转换，请使用选项 /t 并指定 MST 文件。</font></p>
+
+<p>
+	<font face="Verdana" size="2">选项的有效值包括：</font></p>
+<table border="1"width="61%" id="table2">
+	<tr>
+		<td width="126"><b><font size="2" face="Verdana">m</font></b></td>
+		<td><font size="2" face="Verdana">对计算机上的所有用户进行公布。</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font size="2" face="Verdana">u</font></b></td>
+		<td><font size="2" face="Verdana">对当前用户进行公布。</font></td>
+	</tr>
+	</table>
+<blockquote>
+	<p><font face="Verdana" size="2"><b>注意&nbsp; </b>&nbsp;除了 /t，当您使用 /j 公布应用程序时，可使用以下三个命令行选项：/l、/q 和 /settings。</font></p>
+</blockquote>
+<p>
+	<font face="Verdana" size="2">示例：</font></p>
+	<p>
+	<font size="2" face="Courier">/jm My.msi /t Custom.mst </font></p>
+
+
+<h2><font face="Verdana"><a name="l"></a>
+/l<i>[options] logfile</i></font></h2>
+<p></p>
+<p><font face="Verdana" size="2">为安装程序创建安装操作的日志，并为每个 Windows 安装程序任务创建日志文件。/l 选项会覆盖在 Setup.ini 的 [Logging] 节中所指定的默认设置。</font></p>
+
+	<p>
+	<font face="Verdana" size="2">选项的有效值包括以下项并捕获相应数据：</font></p>
+<table border="1"width="61%" id="table3">
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">a</font></b></td>
+		<td><font face="Verdana" size="2">操作通知的开始</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">c</font></b></td>
+		<td><font face="Verdana" size="2">初始用户界面参数</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">e</font></b></td>
+		<td><font face="Verdana" size="2">错误消息</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">i</font></b></td>
+		<td><font face="Verdana" size="2">纯信息性消息</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">m</font></b></td>
+		<td><font face="Verdana" size="2">内存不足消息</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">o</font></b></td>
+		<td><font face="Verdana" size="2">磁盘空间不足消息</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">p</font></b></td>
+		<td><font face="Verdana" size="2">property=value 窗体中的属性表列表</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">r</font></b></td>
+		<td><font face="Verdana" size="2">操作数据记录；包含特定操作信息</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">u</font></b></td>
+		<td><font face="Verdana" size="2">用户请求消息</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">v</font></b></td>
+		<td><font face="Verdana" size="2">详细包括调试消息</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">w</font></b></td>
+		<td><font face="Verdana" size="2">警告消息</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">*</font></b></td>
+		<td><font face="Verdana" size="2">打开所有日志选项（除了 v）</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">+</font></b></td>
+		<td><font face="Verdana" size="2">追加到现有日志文件</font></td>
+	</tr>
+</table>
+<p><font face="Verdana" size="2"><i>Logfile</i> 表示要创建的日志文件的名称和路径。当日志文件名称中包括 (*) 时，安装程序将为每个安装程序实例创建唯一的文件名。</font></p>
+
+
+	<p>
+	<font face="Verdana" size="2">示例：</font></p>
+	<p>
+	<font size="2" face="Courier">/lv* "%temp%\MyApp Setup(*).txt"
+	</font></p>
+
+<p><font face="Verdana" size="2"> 此命令行创建以下日志文件：</font></p>
+
+
+
+<ul>
+	<li><font face="Verdana" size="2">Setup.exe 日志文件<br>
+	</font><font size="2" face="Courier New">"%temp%\MyAppSetup(0001).text"
+	</font>
+	</li>
+</ul>
+
+<ul>
+	<li><font face="Verdana" size="2">核心程序包的 Windows 安装程序日志文件<br>
+	</font><font size="2" face="Courier New">"%temp%\MyApp(0001)_Task(0001).txt"
+	</font>
+	</li>
+</ul>
+
+
+<h2><font face="Verdana">
+<a name="noreboot"></a>
+/noreboot</font></h2>
+<p></p>
+<p><font face="Verdana" size="2">在安装结束前不重新启动计算机或显示重启动对话框。<b>/noreboot</b> 选项为安装中所包含的每个程序包（除了最后一个）将 Windows 安装程序的 REBOOT 属性设为 <b>ReallySuppress</b>。</font></p>
+
+<h2><font face="Verdana"><a name="p"></a>
+/p [<i>mspfile</i>]</font></h2><p>
+<font size="2" face="Verdana">应用管理更新（MSP 文件）到客户端安装。也可通过包含 <b>/a</b> 选项和名称以及管理安装路径上的 MSI 文件的路径，使用 <b>/p</b> 将更新应用到管理安装。若要应用程序包，则需在命令行中包含 <b>/qb</b>；若要生成日志文件，则需包含 <b>/l</b>。</font></p>
+	<p>
+	<font face="Verdana" size="2">示例：</font></p>
+	<p>
+	<font size="2" face="Courier">msiexec /p [<i>mspfile</i>] /qb /l[<i>options</i>]</font></p>
+	<p>
+	<font size="2" face="Courier">msiexec /p [<i>mspfile</i>] /a [<i>msifile</i>]
+	/qb /l[<i>options</i>]</font></p>
+
+
+
+<h2><font face="Verdana"><a name="q"></a>
+/q<i>[option]</i></font></h2>
+<p></p>
+<p><font face="Verdana" size="2">设置安装程序用户界面显示级别。</font></p>
+<p>
+	<font face="Verdana" size="2">选项的有效值包括：</font></p>
+<table border="1"width="61%" id="table4">
+	<tr>
+		<td width="126"><font face="Verdana" size="2"><b>b</b></font></td>
+		<td><font face="Verdana" size="2">只显示简单的进度指示和错误消息（基本）。</font></td>
+	</tr>
+	<tr>
+		<td width="126"><font face="Verdana" size="2"><b>f</b></font></td>
+		<td><font face="Verdana" size="2">显示所有对话框和消息；相当于忽略 <b>/q</b> 选项（完全）。</font></td>
+	</tr>
+	<tr>
+		<td width="126"><font face="Verdana" size="2"><b>n</b></font></td>
+		<td><font face="Verdana" size="2">不显示用户界面；相当于不带选项（无）指定 <b>/q</b>。</font></td>
+	</tr>
+	<tr>
+		<td width="126"><font face="Verdana" size="2"><b>r</b></font></td>
+		<td><font face="Verdana" size="2">显示所有进度指示和错误消息，但不收集用户信息（缩减）。</font></td>
+	</tr>
+	<tr>
+		<td width="126"><font face="Verdana" size="2"><b>-</b></font></td>
+		<td><font face="Verdana" size="2">取消所有模式对话框；仅与 <b>b</b> 一起使用。</font></td>
+	</tr>
+	<tr>
+		<td width="126"><font face="Verdana" size="2"><b>+</b></font></td>
+		<td><font face="Verdana" size="2">向 <b>n</b> 或 <b>b</b> 选项添加完成信息。</font></td>
+	</tr>
+	</table>
+<blockquote>
+	<p><font face="Verdana" size="2"><b>注意&nbsp; </b>&nbsp;当安装程序不需要在安装完成后重启动计算机时，仅显示完成信息。</font></p>
+</blockquote>
+
+
+<h2><font face="Verdana">
+<a name="settings"></a>
+/settings <i>文件</i></font></h2><p>
+<font size="2" face="Verdana">为 Setup.exe 指定自定义安装设置文件，以代替 Setup.ini 使用。设置文件必须位于与 Setup.exe 相同的文件夹中，或者命令行中必须包括路径。</font></p>
+<p>
+<font size="2" face="Verdana"></p>
+
+	<p>
+	示例：</p>
+	<p>
+	<font size="2" face="Courier">/settings MyApp.ini</font></p>
+
+
+
+<h2><font face="Verdana"><a name="x"></a>
+/x <i>[msifile]</i></font></h2><p>
+删除与指定程序包相关的应用程序。程序包必须位于与 Setup.exe 相同的文件夹中，两者必须都位于管理安装路径的根目录中。
+</p>
+<blockquote>
+	<p><b>注意&nbsp; </b>必须指定与最初用于安装应用程序的相同程序包。
+ 	</p>
+</blockquote>
+
+	<p>
+	示例：</p>
+	<p>
+	<font size="2" face="Courier">/x My.msi</font></p>
+
+</font>
+
+
+
+<h2><font face="Verdana"><a name="property"></a>
+property=value</font></h2><p>
+<font size="2" face="Verdana">在命令行上指定属性值。如果该值包含空格，则需将其包含在双引号 (") 当中。若要指定多个属性值，则需用空格进行分隔。
+</font></p>
+<table border="1"width="61%" id="table5">
+	<tr>
+		<td width="126"><font face="Verdana" size="2">ALLUSERS=[string]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">为计算机的所有用户或只为当前用户安装应用程序。默认情况下，Windows 安装程序为计算机的所有用户安装应用程序。将 ALLUSERS 设为空值 ("") 将覆盖此默认行为并为每位用户安装应用程序。</font></p>
+		<p>
+		<font face="Verdana" size="2">1 = </font>为计算机的所有用户安装应用程序；需要管理权限。</p>
+		<p>
+		2 = 为计算机的所有用户安装应用程序。</p>
+		<p>
+		&quot;&quot; = 仅为运行安装程序的用户安装应用程序。 </p>
+
+		<p><i>
+		<font face="Verdana" size="2">ALLUSER=&quot;&quot;</font></i></td>
+	</tr>
+	<tr>
+		<td width="126">
+		<p>
+		<font face="Verdana" size="2">CDCACHE=[string]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">指定缓存级别。</font></p>
+		<p>
+		<font face="Verdana" size="2">Auto = 基于可用磁盘空间缓存</font></p>
+		<p>
+		<font face="Verdana" size="2">1 = 仅缓存所安装的内容</font></p>
+		<p>
+		<font face="Verdana" size="2">2 = 缓存整个源</font></p>
+		<p>
+		<font face="Verdana" size="2">0 = 禁用缓存</font></p>
+		<p><i>
+		<font face="Verdana" size="2">CDCACHE=auto</font></i></td>
+	</tr>
+	<tr>
+		<td width="126">
+		<p>
+		<font face="Verdana" size="2">COMPANYNAME=[string]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">指定单位名称。</font></p>
+		<p>
+		<font face="Verdana" size="2"><i>COMPANYNAME=My Business</i></font></td>
+	</tr>
+	<tr>
+		<td width="126">
+		<p>
+		<font face="Verdana" size="2">INSTALLLOCATION=[string]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">指定安装位置。</font></p>
+		<p>
+		<font face="Verdana" size="2"><i>INSTALLLOCATION=C:\Program Files\MyApp</i></font></p></td>
+	</tr>
+	<tr>
+		<td width="126">
+		<p>
+		<font face="Verdana" size="2">LOCALCACHEDRIVE=[string]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">指定将作为安装文件的缓存目标的驱动器。</font></p>
+		<p>
+		<font face="Verdana" size="2"><i>LOCALCACHEDRIVE=C</i></font></td>
+	</tr>
+	<tr>
+		<td width="126">
+		<p>
+		<font face="Verdana" size="2">PIDKEY=[string]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">在命令行上或在安装程序设置文件中输入 25 个字符的批量许可密钥。当设置 PIDKEY 属性时，用户在安装时不需要输入产品密钥。</font></p>
+		<p>
+		<font face="Verdana" size="2"><i>PIDKEY=123467890123456789012345</i></font></td>
+	</tr>
+	<tr>
+		<td width="126">
+		<p>
+		<font face="Verdana" size="2">TRANSFORMS=[string]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">指定转换以应用于安装。</font></p>
+		<p>
+		<font face="Verdana" size="2"><i>
+		TRANSFORMS=\\server\share\myApp\Custom.mst</i></font></td>
+	</tr>
+	<tr>
+		<td width="126">
+		<p>
+		<font face="Verdana" size="2">USERNAME=[string]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">指定默认用户。</font></p>
+		<p>
+		<font face="Verdana" size="2"><i>USERNAME=Don Dunk</i></font></td>
+	</tr>
+	</table>
+<font size="2" face="Verdana">
+
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+﻿<html dir="ltr"><head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="en-us"><META HTTP-EQUIV="assetid" CONTENT="HR01048340"><title>Microsoft Office Outlook 2003 自述文件</title></head><body><h1>Microsoft Office Outlook 2003 自述文件</h1><META HTTP-EQUIV="assetid" CONTENT="HR01048340"><title>Microsoft Office Outlook 2003 自述文件</title>
+
+<style>
+<!--
+	h1	{font-size: 140%; margin-top: .4em;}
+	h2	{font-size: 120%; margin-top: .2em;}
+	h3	{font-size: 100%; margin-top: .2em; font-weight: bold;}
+	h4	{font-size: 100%; margin-top: .2em; font-weight: bold;}
+	h5	{font-size: 100%; margin-top: .2em; font-weight: bold;}
+	body	{bgcolor: #ffffff; font-family: 宋体, Tahoma, Arial, Helvetica, sans-serif; font-size: 75%; }
+	p	{font-size: 100%; margin-left: 2em;}
+	pre	{font-size: 100%; margin-left: 2em;}
+	ol	{font-size: 100%; margin-top: .5em; margin-left: 4em;}
+	ul	{font-size: 100%; margin-top: .5em;; margin-left: 4em;}
+	li	{margin-bottom: .7em; margin-left: 0em;}
+	table	{font-size: 100%; margin-top: 1em; margin-left: 2em;}
+	th	{text-align: left; background: #CCCCCC; margin: .25em; vertical-align: bottom;}
+	tr	{vertical-align: top;}
+	td	{margin: .25em; vertical-align: top; border-bottom: 1px solid #CCCCCC; }
+
+	
+-->
+</style>
+
+
+
+<h3>© 2003 Microsoft Corporation。保留所有权利。</h3>
+<p>本文档提供了有关 Microsoft Office Outlook 2003 的最新信息。</p>
+<h3>如何使用本文档</h3>
+<p>若要在屏幕上查看自述文件，请将浏览器窗口最大化。若要打印自述文件，请单击工具栏上的“打印”<b class="bterm"></b>按钮。</p>
+<hr>
+<h2><a id="Contents" name="Contents">目录</a></h2>
+
+<h3>使用 Outlook</h3><p><a href="#Rules">安装 Outlook 后规则可能会不兼容</a></p><p><a href="#AddIns">以前使用 Outlook 的加载项现在可能会提示您允许访问 Outlook 数据</a></p><p><a href="#PS419541">ActiveX 控件不会加载到一次性窗体中</a></p><p><a href="#PS444960">使用 Outlook 2003,然后使用任何 Collaboration Data Objects Library (CDO) 1.2x 应用程序可能引起 Microsoft Exchange Server 停止工作
+
+</a></p><p><h3>Outlook 对象模型</h3></p><p><a href="#OM">对象模型中阻止的其他属性：Outlook 对象模型保护</a></p><p><a href="#OMMoreInfo">有关 Outlook 中对象模型阻止的详细信息</a></p><h3>使用会议工作区</h3><p><a href="#MWSConsiderations">将 Outlook 会议要求链接到会议工作区时的注意事项</a></p><p><h3>SharePoint 通知</h3></p><p><a href="#PS369556">在“规则和通知”<b class="ui"></b>对话框中查看 Internet 网站上的 SharePoint 通知</a></p><p><a href="#PS369567">在“规则和通知”<b class="ui"></b>对话框中查看 Windows SharePoint Services 通知</a></p><h2>使用 Outlook</h2><p><h3><a id="Rules" name="Rules">安装 Outlook 后规则可能会不兼容</a></h3></p><p>Outlook 包含下列新规则类型：</p><ul><li>用颜色标志标记某人发来的邮件。</li><li>在新邮件通知窗口中显示某人发来的新电子邮件。</li></ul><p>在 Outlook 2003 中使用这些新规则类型创建新规则后，如果使用 Microsoft Outlook 2002 Service Pack 1 或更早版本来访问该电子邮件帐户，这些规则可能无法正常工作。为了避免规则不兼容，请执行下列操作：</p><ul><li>卸载 Outlook 2003，然后安装 Microsoft Outlook 2002 Service Pack 2 或更高版本。</li><li>在任一台用于访问同一帐户的计算机上安装 Microsoft Outlook 2002 Service Pack 2 或更高版本。
+</li></ul><p>返回<a href="#Contents">目录</a></p><p><h3><a id="AddIns" name="AddIns">以前使用 Outlook 的加载项现在可能会提示您允许访问 Outlook 数据</a></h3></p><p>Outlook 增强了 Outlook 对象模型的安全性，许多第三方软件公司使用这些对象模型将他们的产品与 Outlook 集成。这些新的安全性增强功能可能会提示您授予这些程序访问 Outlook 数据的权限。</p><p>在某些情况下，第三方软件公司提供的软件的更新版本可能不会提示您授予对 Outlook 数据的访问权限。有关此更改的技术信息，请参阅本文后面的 <a href="#OMSection">Outlook 对象模型</a>一节和 Microsoft Developer Network (MSDN) 网站中标题为 <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dno2k3ta/html/odc_olsecnotescomaddins.asp">Important Security Notes for Microsoft Outlook COM Add-In Developers</a> 的文章。</p><p>返回<a href="#Contents">目录</a></p><p><h3><a id="PS419541" name="PS419541">ActiveX 控件不会加载到一次性窗体中</a></h3></p><p>Outlook 接收到包含窗体定义的邮件时，该窗体被视为一次性窗体。为了防止不需要的脚本和控件在一次性窗体中运行，默认情况下，Outlook 不将 ActiveX 控件加载到一次性窗体中。管理员可以使用下列注册表设置之一来控制此行为：</p><p>HKCU\Software\Policies\Microsoft\Office\11.0\Outlook\Security</p><p>HKCU\Software\Microsoft\Office\11.0\Outlook\Security</p><p>AllowActiveXOneOffForms (DWORD)</p><p>不存在 - 仅加载下面列出的控件。（默认）
+<br>0 - 仅加载下面列出的控件。
+<br>1 - 仅允许安全控件。
+<br>2 - 允许所有 ActiveX 控件。
+</p><p>在一次性窗体中可以使用下列控件：</p><ul><li>fm20.dll 中的控件</li><li>Microsoft Office Outlook Rich Format Control</li><li>Microsoft Office Outlook Recipient Control</li><li>Microsoft Office Outlook View Control</li></ul><p>返回<a href="#Contents">目录</a></p><p><h3><a id="PS444960" name="PS444960">使用 Outlook 2003，然后使用任何 Collaboration Data Objects Library (CDO) 1.2x 应用程序可能引起 Microsoft Exchange Server 停止工作</a></h3></p><p>如果您使用 Outlook 2003，然后使用任何 Collaboration Data Objects Library (CDO) 1.2x 应用程序如 Microsoft Outlook Web Access for Microsoft Exchange Server 5.5，并且如果您以前没有安装下面知识库 (KB) 文章中提到的修补程序，Exchange Server 可能停止工作。 
+</p><p><b>注意</b>  Exchange Server 5.5 以后的 Outlook Web Access for Exchange Server 版本不受影响，因为以后的版本不使用 CDO。但是，其他启用 CDO 的应用程序受影响，除非您为您使用的 Exchange Server 版本安装了修补程序。
+</p><p>有关此问题的详细信息，请参阅适用于您使用的 Exchange Server 版本的知识库文章 <a href="
+http://office.microsoft.com/search/redir.aspx?AssetID=
+XT010183472052
+&amp;Origin=HR010483402052
+&amp;CTT=5
+">Microsoft Office Product Support for Office Users</a>。</p><p><b class="runinhead">Exchange Server 2003 SP1</b>       #823343 CDO Heap Corruption When You Try to Access an Exchange Mailbox
+</p><p><b class="runinhead">Exchange Server 2000</b>            #824960 CDO Heap Corruption When You Try to Access an Exchange Mailbox
+
+</p><p><b class="runinhead">Exchange Server 5.5</b>            #818709 Outlook Web Access Stops Responding When You Try to Access an Exchange Mailbox
+</p><p>返回<a href="#Contents">目录</a></p><h2><a id="OMSection" name="OMSection">Outlook 对象模型</a></h2><p><h3><a id="OM" name="OM">对象模型中阻止的其他属性：Outlook 对象模型保护</a></h3></p><p>除继承了 Outlook 2002 对象模型保护行为之外，出于安全考虑，Outlook 2003 还阻止试图访问 Outlook 对象模型特定属性的代码。这些附加的阻止行为可能会导致使用 Outlook 以前版本的一些程序受到安全性阻止。在 Outlook 2003 中被阻止的附加属性有：</p><ul><li> ContactItem 对象的 IMAddress 和 Body 属性</li><li>MailItem 对象的 HTMLBody 和 Body 属性</li><li>PostItem 对象的 HTMLBody 和 Body 属性</li><li>AppointmentItem 对象的 Body 属性</li><li>TaskItem 对象的 Body 属性</li><li>TaskRequestItem 对象的 Body 属性</li><li>TaskRequestAcceptItem 对象的 Body 属性</li><li>TaskRequestDeclineItem 对象的 Body 属性</li><li>TaskRequestUpdateItem 对象的 Body 属性</li><li>DistListItem 对象的 Body 属性</li><li>JournalItem 对象的 Body 属性</li><li>MeetingItem 对象的 Body 属性</li><li>ReportItem 对象的 Body 属性</li><li>RemoteItem 对象的 Body 属性</li><li>NoteItem 对象的 Body 属性</li><li>DocumentItem 对象的 Body 属性</li><li>Inspector 对象的 HTMLEditor 和 WordEditor 属性</li><li>MailItem 对象的 HTMLBody 属性、Body 属性和 SenderEmailAddress 属性</li><li>PostItem 对象的 HTMLBody 属性、Body 属性和 SenderEmailAddress 属性</li><li>MeetingItem 对象的 Body 属性和 SenderEmailAddress 属性</li></ul><p>返回<a href="#Contents">目录</a></p><p><h3><a id="OMMoreInfo" name="OMMoreInfo">有关 Outlook 中对象模型阻止的详细信息</a></h3></p><p>有关 Outlook 中对象模型阻止的详细信息，请在 <a href="http://www.microsoft.com/office/support/">Microsoft Office Product Support for Office Users</a> 中搜索 Microsoft 知识库文章：<nobr>Q290498 OL2002：Add-in or Custom Solution Causes a Warning to Appear。</nobr></p><p>返回<a href="#Contents">目录</a></p><h2>使用会议工作区</h2><p><h3><a id="MWSConsiderations" name="MWSConsiderations">将 Outlook 会议要求链接到会议工作区时的注意事项</a></h3></p><p><b class="bterm">非定期会议</b><br>如果以前尚未将工作区链接到定期会议序列，则可以将多个非定期会议要求链接到同一会议工作区。</p><p><b class="bterm">定期会议</b><ul><li>只能将一个定期会议序列链接到一个工作区。将序列链接到工作区时，该工作区不能已链接到其他会议。</li><li>不能将定期会议序列中的某次会议与主要序列分别链接到不同的工作区。</li><li>一旦从定期会议序列的会议要求中删除了会议工作区链接，则以后不能再将该会议要求链接到同一工作区。但可以将其链接到其他工作区。</li><li>使用 Outlook 更改现有会议序列的定期模式以减少重复次数时，并不会在工作区中实施对模式进行的所有更改。如果工作区中已经包含序列中某些日期的数据（如日程或文档），则不会删除这些日期。</li><li>打开定期会议序列或约会序列的单个实例时，Outlook 中的会议工作区任务窗格不可用。</li></ul></p><p><b class="bterm">使用代理</b><br>若要允许 Outlook 代理为您创建会议工作区，该代理必须对将在其中创建会议工作区的 Microsoft Windows SharePoint Services 网站具有访问权限。</p><p>返回<a href="#Contents">目录</a></p><h2>SharePoint 通知</h2><p><h3><a id="PS369556" name="PS369556">在“规则和通知”<b class="ui"></b>对话框中查看 Internet 网站上的 SharePoint 通知</a></h3></p><p>若要在 Outlook 中接收 Microsoft Windows SharePoint Services 通知，需要将 SharePoint 服务器地址添加到注册表中的下列位置：</p><p>
+
+HKEY_CURRENT_USER/Software/Microsoft/Office/11.0/Common/Security/Trusted Alert Sources 
+	"siteurl" (REG_SZ) = 1    
+</p><p>其中，如果 SharePoint 网站为 http://www.fourthcoffee.com，则“siteurl”字符串应为“www.fourthcoffee.com”。
+</p><p>返回<a href="#Contents">目录</a></p><p><h3><a id="PS369567" name="PS369567">在“规则和通知”<b class="ui"></b>对话框中查看 Windows SharePoint Services 通知</a></h3></p><p>如果使用的是 Microsoft Windows Server 2003 操作系统，打开“规则和通知”<b class="ui"></b>对话框时，以前在 Intranet 网站上创建的通知不会显示在“通知”<b class="ui"></b>列表中。尚未验证的所有新通知来源将被从“通知来源”<b class="ui"></b>列表中永久删除。若要解决此问题，请在 Microsoft Internet Explorer 中将 SharePoint 网站添加到 Intranet 站点或受信任的站点中。</p><p>返回<a href="#Contents">目录</a></p></body></html>

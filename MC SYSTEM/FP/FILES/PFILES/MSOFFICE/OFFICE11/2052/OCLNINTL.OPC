@@ -1,0 +1,2021 @@
+#### OPC FILE VERSION 11 -- WARNING -- VERY DELICATE FILE SYNTAX ####
+;
+;	Last Saved Date: 9/28/2000
+;	LCID=2052
+;	Simplified Chinese
+;
+
+[RISKY, ACCESS95] "Microsoft Access 95"
+ACCESS95DIR\samples\northwind.ldb
+\samples\northwind.mdb
+\samples\orders.ldb
+\samples\orders.mdb
+\samples\solutions.ldb
+\samples\solutions.mdb
+\wzcnf70.mda
+\wzdat70.mdt
+\wzlib70.mda
+\wzmain70.mda
+\wztool70.mda
+HKLM\Software\Microsoft\Access\7.0
+
+[RISKY, ACCESS95, ACCESS97, EXCEL95, EXCEL97, OUTLOOK97, POWERPOINT95, POWERPOINT97, PROJECT95, PROJECT98, SCHEDULE95, WORD95, WORD97] "Microsoft Office"
+HKLM\Software\Microsoft\Shared Tools\Find Fast\95
+HKLM\Software\Microsoft\Shared Tools\Location\Find Fast
+HKLM\Software\Microsoft\Shared Tools\Location\FindFast
+HKLM\SOFTWARE\Shared Tools Location\FindFast
+
+[RISKY, ACCESS95, EXCEL95, POWERPOINT95, PROJECT95, WORD95, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, WORD97, PROJECT98, ACCESSMSIREG, EXCELMSIREG, OUTLOOKMSIREG, POWERPOINTMSIREG, WORDMSIREG, PROJECTMSIREG] "Microsoft Office"
+HKLM\Software\Microsoft\Shared Tools\ffastlog.txt
+HKLM\Software\Microsoft\Shared Tools\findfast.cpl
+
+[RISKY, ACCESS97] "Microsoft Access 97"
+ACCESS97DIR\samples\northwind.ldb
+\samples\northwind.mdb
+\samples\orders.ldb
+\samples\orders.mdb
+\samples\solutions.ldb
+\samples\solutions.mdb
+\wzcnf80.mda
+\wzdat80.mdt
+\wzlib80.mde
+\wzmain80.mde
+\wztool80.mde
+
+[RISKY, ACCESS97, ACCESS97RT, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, PUBLISHER5, WORD97, ACCESSMSIREG, EXCELMSIREG, OUTLOOKMSIREG, POWERPOINTMSIREG, PROJECTMSIREG, WORDMSIREG] "Microsoft Office"
+WINDIR\mso97.acl    "User data"
+
+[RISKY, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, WORD97] "Microsoft Office"
+HKLM\Software\Microsoft\Shared Tools\Find Fast\97
+
+[RISKY, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, WORD97, ACCESSMSIREG, EXCELMSIREG, OUTLOOKMSIREG, POWERPOINTMSIREG, PROJECTMSIREG, WORDMSIREG] "Microsoft Office"
+MSAPPS9XDIR\vba\vba332.dll
+\vba\vba3chs.dll
+\vba\vba3en.dll
+\vba\vbacv10.dll
+\vba\vbacv10d.dll
+\vba\vbacv20.dll
+\vba\vbe.dll
+\vba\vbeext1.olb
+\vba\vechscn3.cnt
+\vba\vechscn3.ftg
+\vba\vechscn3.fts
+\vba\vechscn3.gid
+\vba\vechscn3.hlp
+\vba\vechsdf3.ftg
+\vba\vechsdf3.fts
+\vba\vechsdf3.gid
+\vba\vechsdf3.hlp
+\vba\vechser3.ftg
+\vba\vechser3.fts
+\vba\vechser3.gid
+\vba\vechshw3.cnt
+\vba\vechshw3.ftg
+\vba\vechshw3.fts
+\vba\vechshw3.gid
+\vba\vechshw3.hlp
+\vba\vechslr3.cnt
+\vba\vechslr3.ftg
+\vba\vechslr3.fts
+\vba\vechslr3.gid
+\vba\vechslr3.hlp
+\vba\vechsmc3.ftg
+\vba\vechsmc3.fts
+\vba\vechsmc3.gid
+\vba\vechsmc3.hlp
+\vba\vechsui3.cnt
+\vba\vechsui3.ftg
+\vba\vechsui3.fts
+\vba\vechsui3.gid
+\vba\vechsui3.hlp
+\vba\veen3.aw
+\vba\veena3.aw
+\vba\veencn3.cnt
+\vba\veencn3.ftg
+\vba\veencn3.fts
+\vba\veencn3.gid
+\vba\veencn3.hlp
+\vba\veendf3.ftg
+\vba\veendf3.fts
+\vba\veendf3.gid
+\vba\veendf3.hlp
+\vba\veener3.ftg
+\vba\veener3.fts
+\vba\veener3.gid
+\vba\veenhw3.cnt
+\vba\veenhw3.ftg
+\vba\veenhw3.fts
+\vba\veenhw3.gid
+\vba\veenhw3.hlp
+\vba\veenlr3.cnt
+\vba\veenlr3.ftg
+\vba\veenlr3.fts
+\vba\veenlr3.gid
+\vba\veenlr3.hlp
+\vba\veenmc3.ftg
+\vba\veenmc3.fts
+\vba\veenmc3.gid
+\vba\veenmc3.hlp
+\vba\veenob3.cnt
+\vba\veenob3.hlp
+\vba\veenui3.cnt
+\vba\veenui3.ftg
+\vba\veenui3.fts
+\vba\veenui3.gid
+\vba\veenui3.hlp
+SHAREDDLL=MSAPPS9XDIR\vba\vba3chs.dll
+SHAREDDLL=MSAPPS9XDIR\vba\vba3en.dll
+SHAREDDLL=MSAPPS9XDIR\vba\vbe.dll
+SHAREDDLL=MSAPPS9XDIR\vba\vbeext1.olb
+
+[RISKY, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, WORD97] "Microsoft Office 97 ShortCut Bar"
+OFFICE97DIR\setup\off97inv.dll
+\shortcut bar\office\ms-dos prompt.pif
+\shortcut bar\office\ms-dos 方式.pif
+\shortcut bar\office\控制面板.lnk
+\shortcut bar\office\屏幕保护.lnk
+
+[RISKY, ARTGALLERY94, ARTGALLERY95, ARTGALLERY97, ARTGALLERY98, ARTGALLERY9] "Microsoft ArtGallery"
+MSAPPS94DIR\artgalry\artgalry.cnt
+\artgalry\artgalry.ftg
+\artgalry\artgalry.fts
+\artgalry\artgalry.hlp
+MSAPPS9XDIR\artgalry\artgalry.cnt
+\artgalry\artgalry.ftg
+\artgalry\artgalry.fts
+\artgalry\artgalry.gid
+\artgalry\artgalry.hlp
+\artgalry\artgalry.srg
+\artgalry\gifplay.dll
+\artgalry\qartgalry.gid
+\artgalry\qartglry.fts
+\artgalry\selfreg.dll
+\artgalry\wmfimp32.flt
+\artgalry\www_clip.url
+WINDIR\artgalry.cag
+\artgalry.ini    "USER DATA"
+
+[RISKY, BOOKS94] "Microsoft Office 4.x Bookshelf"
+BOOKS94DIR\bsh.wll
+
+[RISKY, CUSTOMDIC94] "Microsoft Office 4.x"
+MSAPPS94DIR\proof\custom.dic
+
+[RISKY, DMM97, DMM9PLUS] "Direct Mail Manager"
+HKLM\Software\Microsoft\Direct Mail Manager
+
+[RISKY, EXCEL95] "Microsoft Excel 95"
+EXCEL95DIR\library\bshdef.xla
+\library\common.xls
+\library\crtdb.xls
+\library\expdb.xls
+\library\invdb.xls
+\library\podb.xls
+\library\sqdb.xls
+\library\timedb.xls
+\xlstart\xl5galry.xls
+EXCEL97DIR\xlstart\xl5galry.xls
+OFFICEROOT95DIR\templates\spreadsheet solutions\business planner.xlt
+\templates\spreadsheet solutions\car lease manager.xlt
+\templates\spreadsheet solutions\change request.xlt
+\templates\spreadsheet solutions\expense statement.xlt
+\templates\spreadsheet solutions\invoice.xlt
+\templates\spreadsheet solutions\loan manager.xlt
+\templates\spreadsheet solutions\personal budgeter.xlt
+\templates\spreadsheet solutions\purchase order.xlt
+\templates\spreadsheet solutions\sales quote.xlt
+\templates\spreadsheet solutions\timecard.xlt
+\templates\spreadsheet solutions\village software.xlt
+
+[RISKY, EXCEL95, EXCEL97, EXCELMSIREG] "DataMap"
+MSAPPS9XDIR\datamap\data\a_grid15.dat
+\datamap\data\a_grid15.id
+\datamap\data\a_grid15.map
+\datamap\data\a_grid15.tab
+\datamap\data\a_ocean.dat
+\datamap\data\a_ocean.id
+\datamap\data\a_ocean.map
+\datamap\data\a_ocean.tab
+\datamap\data\a_world.dat
+\datamap\data\a_world.id
+\datamap\data\a_world.ind
+\datamap\data\a_world.map
+\datamap\data\a_world.tab
+\datamap\data\a_wrlcap.dat
+\datamap\data\a_wrlcap.id
+\datamap\data\a_wrlcap.map
+\datamap\data\a_wrlcap.tab
+\datamap\data\prc.dat
+\datamap\data\prc.gst
+\datamap\data\prc.id
+\datamap\data\prc.ind
+\datamap\data\prc.map
+\datamap\data\prc.tab
+\datamap\data\prc_air.dat
+\datamap\data\prc_air.id
+\datamap\data\prc_air.map
+\datamap\data\prc_air.tab
+\datamap\data\prc_ctya.dat
+\datamap\data\prc_ctya.id
+\datamap\data\prc_ctya.map
+\datamap\data\prc_ctya.tab
+\datamap\data\prc_ctyb.dat
+\datamap\data\prc_ctyb.id
+\datamap\data\prc_ctyb.map
+\datamap\data\prc_ctyb.tab
+\datamap\data\prc_hiwy.dat
+\datamap\data\prc_hiwy.id
+\datamap\data\prc_hiwy.map
+\datamap\data\prc_hiwy.tab
+
+[RISKY, EXCEL95, POWERPOINT95, WORD95] "Microsoft Office 95 Binder"
+OFFICEROOT95DIR\templates\binders\meeting organizer.obt
+\templates\binders\proposal and marketing plan.obt
+\templates\binders\report.obt
+WINDIR\shellnew\binder70.obd
+
+[RISKY, EXCEL97] "Microsoft Excel 97"
+EXCEL97DIR\library\common.xls
+\library\expdb.xls
+\library\invdb.xls
+\library\podb.xls
+\xlstart\xl8galry.xls    "User Data"
+HKLM\Software\Microsoft\Office\8.0\Excel\SBFM
+HKLM\SOFTWARE\ODBC\odbc.ini\Small Business Financial Manager
+OFFICEROOT97DIR\templates\spreadsheet solutions\expense statement.xlt
+\templates\spreadsheet solutions\invoice.xlt
+\templates\spreadsheet solutions\purchase order.xlt
+\templates\spreadsheet solutions\village software.xlt
+WINDIR\shellnew\excel8.xls
+
+[RISKY, EXCEL97, EXCELMSIREG] "DataMap"
+MSAPPS9XDIR\datamap\vbamap8.fts
+
+[RISKY, EXCEL97, POWERPOINT97, WORD97] "Microsoft Office 97 Bookshelf Basics"
+OFFICEROOT97DIR\aamstp\app\mmb.dll
+\aamstp\app\subwiz.exe
+\aamstp\bs96se.cnt
+\aamstp\bs96se.hlp
+
+[RISKY, EXCEL97, WORD97, POWERPOINT97] "Microsoft Office 97 Binder"
+OFFICEROOT97DIR\templates\binders\meeting organizer.obt
+\templates\binders\mscreate.dir
+\templates\binders\proposal and marketing plan.obt
+\templates\binders\report.obt
+\templates\binders\报告型模板.obt
+\templates\binders\会议组织型模板.obt
+\templates\binders\预案及市场计划型模板.obt
+WINDIR\shellnew\binder.obd
+
+[RISKY, FONTS94, FONTS95] "Microsoft Office"
+WINDIR\fonts\tahomabd.ttf
+
+[RISKY, FONTS95, FONTS97] "Microsoft Office"
+WINDIR\fonts\alger.ttf
+\fonts\antqua.ttf
+\fonts\antquab.ttf
+\fonts\antquabi.ttf
+\fonts\antquai.ttf
+\fonts\arbli___.ttf
+\fonts\arial.ttf
+\fonts\arialb.ttf
+\fonts\arialbd.ttf
+\fonts\arialbi.ttf
+\fonts\ariali.ttf
+\fonts\arialn.ttf
+\fonts\arialnb.ttf
+\fonts\arialnbi.ttf
+\fonts\arialni.ttf
+\fonts\ariblk.ttf
+\fonts\arlrdbd.ttf
+\fonts\baskvill.ttf
+\fonts\bauhs93.ttf
+\fonts\bell.ttf
+\fonts\bellb.ttf
+\fonts\belli.ttf
+\fonts\bernhc.ttf
+\fonts\bkant.ttf
+\fonts\bkmnos.ttf
+\fonts\bookos.ttf
+\fonts\bookosb.ttf
+\fonts\bookosbi.ttf
+\fonts\bookosi.ttf
+\fonts\bradhitc.ttf
+\fonts\bragga.ttf
+\fonts\britanic.ttf
+\fonts\broadw.ttf
+\fonts\brushsci.ttf
+\fonts\calist.ttf
+\fonts\calistb.ttf
+\fonts\calistbi.ttf
+\fonts\calisti.ttf
+\fonts\castelar.ttf
+\fonts\censcbk.ttf
+\fonts\centaur.ttf
+\fonts\chiller.ttf
+\fonts\colonna.ttf
+\fonts\comic.ttf
+\fonts\comicbd.ttf
+\fonts\coopbl.ttf
+\fonts\coprgtb.ttf
+\fonts\coprgtl.ttf
+\fonts\cour.ttf
+\fonts\courb.ttf
+\fonts\couri.ttf
+\fonts\courz.ttf
+\fonts\curlz___.ttf
+\fonts\desdemon.ttf
+\fonts\elephnt.ttf
+\fonts\elephnti.ttf
+\fonts\engr.ttf
+\fonts\erasbd.ttf
+\fonts\erasdemi.ttf
+\fonts\eraslght.ttf
+\fonts\erasmd.ttf
+\fonts\felixti.ttf
+\fonts\forte.ttf
+\fonts\frabk.ttf
+\fonts\frabkit.ttf
+\fonts\fradm.ttf
+\fonts\fradmcn.ttf
+\fonts\fradmit.ttf
+\fonts\frahv.ttf
+\fonts\frahvit.ttf
+\fonts\framd.ttf
+\fonts\framdcn.ttf
+\fonts\framdit.ttf
+\fonts\frscript.ttf
+\fonts\ftltlt.ttf
+\fonts\gara.ttf
+\fonts\garabd.ttf
+\fonts\garait.ttf
+\fonts\georgia.ttf
+\fonts\georgiab.ttf
+\fonts\georgiai.ttf
+\fonts\georgiaz.ttf
+\fonts\gil_____.ttf
+\fonts\gilb____.ttf
+\fonts\gilbi___.ttf
+\fonts\gilc____.ttf
+\fonts\gili____.ttf
+\fonts\gillubcd.ttf
+\fonts\gilsanub.ttf
+\fonts\glecb.ttf
+\fonts\glsnecb.ttf
+\fonts\gothic.ttf
+\fonts\goudos.ttf
+\fonts\goudosb.ttf
+\fonts\goudosi.ttf
+\fonts\goudysto.ttf
+\fonts\harlowsi.ttf
+\fonts\harngton.ttf
+\fonts\hatten.ttf
+\fonts\impact.ttf
+\fonts\imprisha.ttf
+\fonts\infroman.ttf
+\fonts\itcblkad.ttf
+\fonts\itcedscr.ttf
+\fonts\itckrist.ttf
+\fonts\jokerman.ttf
+\fonts\juice___.ttf
+\fonts\kino.ttf
+\fonts\kunstler.ttf
+\fonts\latinwd.ttf
+\fonts\lbrite.ttf
+\fonts\lbrited.ttf
+\fonts\lbritedi.ttf
+\fonts\lbritei.ttf
+\fonts\lcallig.ttf
+\fonts\lfax.ttf
+\fonts\lfaxd.ttf
+\fonts\lfaxdi.ttf
+\fonts\lfaxi.ttf
+\fonts\lhandw.ttf
+\fonts\lsans.ttf
+\fonts\lsansd.ttf
+\fonts\lsansdi.ttf
+\fonts\lsansi.ttf
+\fonts\ltype.ttf
+\fonts\ltypeb.ttf
+\fonts\ltypebo.ttf
+\fonts\ltypeo.ttf
+\fonts\maian.ttf
+\fonts\mapsym.ttf
+\fonts\maturasc.ttf
+\fonts\mod20.ttf
+\fonts\mtextra.ttf
+\fonts\mtsorts.ttf
+\fonts\ocraext.ttf
+\fonts\oldengl.ttf
+\fonts\onyx.ttf
+\fonts\palscri.ttf
+\fonts\papyrus.ttf
+\fonts\per_____.ttf
+\fonts\perb____.ttf
+\fonts\perbi___.ttf
+\fonts\peri____.ttf
+\fonts\pertibd.ttf
+\fonts\pertili.ttf
+\fonts\playbill.ttf
+\fonts\pristina.ttf
+\fonts\rage.ttf
+\fonts\rocc____.ttf
+\fonts\roccb___.ttf
+\fonts\rock.ttf
+\fonts\rockb.ttf
+\fonts\rockbi.ttf
+\fonts\rockeb.ttf
+\fonts\rocki.ttf
+\fonts\schlbkb.ttf
+\fonts\schlbkbi.ttf
+\fonts\schlbki.ttf
+\fonts\scriptbl.ttf
+\fonts\snap____.ttf
+\fonts\stencil.ttf
+\fonts\symbol.ttf
+\fonts\tahoma.ttf
+\fonts\tcb_____.ttf
+\fonts\tcbi____.ttf
+\fonts\tccb____.ttf
+\fonts\tcceb.ttf
+\fonts\tccm____.ttf
+\fonts\tcm_____.ttf
+\fonts\tcmi____.ttf
+\fonts\tempsitc.ttf
+\fonts\times.ttf
+\fonts\timesb.ttf
+\fonts\timesbi.ttf
+\fonts\timesi.ttf
+\fonts\trebuc.ttf
+\fonts\trebucbd.ttf
+\fonts\trebucbi.ttf
+\fonts\trebucit.ttf
+\fonts\verdana.ttf
+\fonts\verdanab.ttf
+\fonts\verdanai.ttf
+\fonts\verdanaz.ttf
+\fonts\vineritc.ttf
+\fonts\vivaldii.ttf
+\fonts\vladimir.ttf
+\fonts\wingding.ttf
+\fonts\wingdng2.ttf
+\fonts\wingdng3.ttf
+
+[RISKY, GRPHFLT95] "Microsoft Office 4.x"
+MSAPPS9XDIR\grphflt\cgmimp32.cfg
+\grphflt\cgmimp32.fnt
+\grphflt\cgmimp32.hlp
+\grphflt\emfimp32.flt
+\grphflt\ms.bmp
+\grphflt\ms.cdr
+\grphflt\ms.dxf
+\grphflt\ms.emf
+\grphflt\ms.jpg
+\grphflt\ms.png
+\grphflt\ms.tga
+\grphflt\ms.wmf
+\grphflt\pcdlib32.dll
+\grphflt\png32.flt
+
+[RISKY, OUTLOOK97] "Microsoft Outlook"
+OFFICEROOT97DIR\templates\outlook\appointment.oft
+\templates\outlook\contact.oft
+\templates\outlook\mail.oft
+\templates\outlook\post.oft
+\templates\outlook\task.oft
+\templates\outlook\while you were out.oft
+\templates\outlook\公告型模板.oft
+\templates\outlook\联系人型模板.oft
+\templates\outlook\任务型模板.oft
+\templates\outlook\外出留言.oft
+\templates\outlook\邮件型模板.oft
+\templates\outlook\约会型模板.oft
+
+[RISKY, POWERPOINT94] "Microsoft PowerPoint 4.0"
+POWERPOINT94DIR\default.ppt
+\samples\calendar.ppt
+\samples\flowchrt.ppt
+\samples\printme.ppt
+\samples\tables.ppt
+\samples\timeline.ppt
+\template\bwovrhd\azureb.ppt
+\template\bwovrhd\bannerb.ppt
+\template\bwovrhd\bevelb.ppt
+\template\bwovrhd\blackb.ppt
+\template\bwovrhd\blstripb.ppt
+\template\bwovrhd\bludiagb.ppt
+\template\bwovrhd\blueboxb.ppt
+\template\bwovrhd\bluegrnb.ppt
+\template\bwovrhd\brknbarb.ppt
+\template\bwovrhd\bubbleb.ppt
+\template\bwovrhd\checksb.ppt
+\template\bwovrhd\cheersb.ppt
+\template\bwovrhd\colorbxb.ppt
+\template\bwovrhd\confetib.ppt
+\template\bwovrhd\dbllineb.ppt
+\template\bwovrhd\diamondb.ppt
+\template\bwovrhd\dropstrb.ppt
+\template\bwovrhd\embossdb.ppt
+\template\bwovrhd\fiestab.ppt
+\template\bwovrhd\flagb.ppt
+\template\bwovrhd\forestb.ppt
+\template\bwovrhd\gridwrkb.ppt
+\template\bwovrhd\intlb.ppt
+\template\bwovrhd\islandb.ppt
+\template\bwovrhd\linsblub.ppt
+\template\bwovrhd\marbleb.ppt
+\template\bwovrhd\medicalb.ppt
+\template\bwovrhd\metlbarb.ppt
+\template\bwovrhd\movnglnb.ppt
+\template\bwovrhd\multbarb.ppt
+\template\bwovrhd\multboxb.ppt
+\template\bwovrhd\musicb.ppt
+\template\bwovrhd\neonlitb.ppt
+\template\bwovrhd\pastelb.ppt
+\template\bwovrhd\patchwkb.ppt
+\template\bwovrhd\redlineb.ppt
+\template\bwovrhd\seashorb.ppt
+\template\bwovrhd\shadbarb.ppt
+\template\bwovrhd\sidebarb.ppt
+\template\bwovrhd\sidefadb.ppt
+\template\bwovrhd\soaringb.ppt
+\template\bwovrhd\southwsb.ppt
+\template\bwovrhd\sparkleb.ppt
+\template\bwovrhd\splatb.ppt
+\template\bwovrhd\tabletb.ppt
+\template\bwovrhd\theatreb.ppt
+\template\bwovrhd\toplineb.ppt
+\template\bwovrhd\travelb.ppt
+\template\bwovrhd\tridotsb.ppt
+\template\bwovrhd\triumphb.ppt
+\template\bwovrhd\tropicb.ppt
+\template\bwovrhd\twinkleb.ppt
+\template\bwovrhd\vividlnb.ppt
+\template\bwovrhd\watercob.ppt
+\template\bwovrhd\worldb.ppt
+\template\clrovrhd\azurec.ppt
+\template\clrovrhd\bannerc.ppt
+\template\clrovrhd\bevelc.ppt
+\template\clrovrhd\blackc.ppt
+\template\clrovrhd\blstripc.ppt
+\template\clrovrhd\bludiagc.ppt
+\template\clrovrhd\blueboxc.ppt
+\template\clrovrhd\bluegrnc.ppt
+\template\clrovrhd\brknbarc.ppt
+\template\clrovrhd\bubblec.ppt
+\template\clrovrhd\checksc.ppt
+\template\clrovrhd\cheersc.ppt
+\template\clrovrhd\colorbxc.ppt
+\template\clrovrhd\confetic.ppt
+\template\clrovrhd\dbllinec.ppt
+\template\clrovrhd\diamondc.ppt
+\template\clrovrhd\dropstrc.ppt
+\template\clrovrhd\embossdc.ppt
+\template\clrovrhd\fiestac.ppt
+\template\clrovrhd\flagc.ppt
+\template\clrovrhd\forestc.ppt
+\template\clrovrhd\gridwrkc.ppt
+\template\clrovrhd\intlc.ppt
+\template\clrovrhd\islandc.ppt
+\template\clrovrhd\linsbluc.ppt
+\template\clrovrhd\marblec.ppt
+\template\clrovrhd\medicalc.ppt
+\template\clrovrhd\metlbarc.ppt
+\template\clrovrhd\movnglnc.ppt
+\template\clrovrhd\multbarc.ppt
+\template\clrovrhd\multboxc.ppt
+\template\clrovrhd\musicc.ppt
+\template\clrovrhd\neonlitc.ppt
+\template\clrovrhd\pastelc.ppt
+\template\clrovrhd\patchwkc.ppt
+\template\clrovrhd\redlinec.ppt
+\template\clrovrhd\seashorc.ppt
+\template\clrovrhd\shadbarc.ppt
+\template\clrovrhd\sidebarc.ppt
+\template\clrovrhd\sidefadc.ppt
+\template\clrovrhd\soaringc.ppt
+\template\clrovrhd\southwsc.ppt
+\template\clrovrhd\sparklec.ppt
+\template\clrovrhd\splatc.ppt
+\template\clrovrhd\tabletc.ppt
+\template\clrovrhd\theatrec.ppt
+\template\clrovrhd\toplinec.ppt
+\template\clrovrhd\travelc.ppt
+\template\clrovrhd\tridotsc.ppt
+\template\clrovrhd\triumphc.ppt
+\template\clrovrhd\tropicc.ppt
+\template\clrovrhd\twinklec.ppt
+\template\clrovrhd\vividlnc.ppt
+\template\clrovrhd\watercoc.ppt
+\template\clrovrhd\worldc.ppt
+\template\sldshow\azures.ppt
+\template\sldshow\banners.ppt
+\template\sldshow\bevels.ppt
+\template\sldshow\blacks.ppt
+\template\sldshow\blstrips.ppt
+\template\sldshow\bludiags.ppt
+\template\sldshow\blueboxs.ppt
+\template\sldshow\bluegrns.ppt
+\template\sldshow\brknbars.ppt
+\template\sldshow\bubbles.ppt
+\template\sldshow\checkss.ppt
+\template\sldshow\cheerss.ppt
+\template\sldshow\colorbxs.ppt
+\template\sldshow\confetis.ppt
+\template\sldshow\dbllines.ppt
+\template\sldshow\diamonds.ppt
+\template\sldshow\dropstrs.ppt
+\template\sldshow\embossds.ppt
+\template\sldshow\fiestas.ppt
+\template\sldshow\flags.ppt
+\template\sldshow\forests.ppt
+\template\sldshow\gridwrks.ppt
+\template\sldshow\intls.ppt
+\template\sldshow\islands.ppt
+\template\sldshow\linsblus.ppt
+\template\sldshow\marbles.ppt
+\template\sldshow\medicals.ppt
+\template\sldshow\metlbars.ppt
+\template\sldshow\movnglns.ppt
+\template\sldshow\multbars.ppt
+\template\sldshow\multboxs.ppt
+\template\sldshow\musics.ppt
+\template\sldshow\neonlits.ppt
+\template\sldshow\pastels.ppt
+\template\sldshow\patchwks.ppt
+\template\sldshow\redlines.ppt
+\template\sldshow\seashors.ppt
+\template\sldshow\shadbars.ppt
+\template\sldshow\sidebars.ppt
+\template\sldshow\sidefads.ppt
+\template\sldshow\soarings.ppt
+\template\sldshow\southwss.ppt
+\template\sldshow\sparkles.ppt
+\template\sldshow\splats.ppt
+\template\sldshow\tablets.ppt
+\template\sldshow\theatres.ppt
+\template\sldshow\toplines.ppt
+\template\sldshow\travels.ppt
+\template\sldshow\tridotss.ppt
+\template\sldshow\triumphs.ppt
+\template\sldshow\tropics.ppt
+\template\sldshow\twinkles.ppt
+\template\sldshow\vividlns.ppt
+\template\sldshow\watercos.ppt
+\template\sldshow\worlds.ppt
+\wizards\badnews.ppt
+\wizards\general.ppt
+\wizards\progress.ppt
+\wizards\selling.ppt
+\wizards\strategy.ppt
+\wizards\training.ppt
+
+[RISKY, POWERPOINT94, POWERPOINT95, POWERPOINT97] "Microsoft PowerPoint"
+WINDIR\powerpnt.ini
+
+[RISKY, POWERPOINT94, POWERPOINT95, POWERPOINT97, POWERPOINTMSIREG] "Microsoft PowerPoint"
+HKCR\.ppt
+
+[RISKY, POWERPOINT95] "Microsoft PowerPoint 95"
+OFFICEROOT95DIR\templates\blank presentation.pot
+\templates\presentation designs\azure.pot
+\templates\presentation designs\bedrock.pot
+\templates\presentation designs\bevel.pot
+\templates\presentation designs\blue diagonal.pot
+\templates\presentation designs\blue green.pot
+\templates\presentation designs\blue weave.pot
+\templates\presentation designs\brown marble.pot
+\templates\presentation designs\color boxes.pot
+\templates\presentation designs\comet.pot
+\templates\presentation designs\contemporary.pot
+\templates\presentation designs\double lines.pot
+\templates\presentation designs\embossed.pot
+\templates\presentation designs\international.pot
+\templates\presentation designs\lines on blue.pot
+\templates\presentation designs\metal bar.pot
+\templates\presentation designs\multiple bars.pot
+\templates\presentation designs\professional.pot
+\templates\presentation designs\side bar.pot
+\templates\presentation designs\side fade.pot
+\templates\presentation designs\soaring.pot
+\templates\presentation designs\sparkle.pot
+\templates\presentation designs\tatami.pot
+\templates\presentation designs\theater.pot
+\templates\presentation designs\tridots.pot
+\templates\presentation designs\tropical.pot
+\templates\presentation designs\twinkle.pot
+\templates\presentation designs\wet sand.pot
+\templates\presentations\business plan.pot
+\templates\presentations\communicating bad news (long).pot
+\templates\presentations\communicating bad news.pot
+\templates\presentations\company meeting.pot
+\templates\presentations\creativity session.pot
+\templates\presentations\employee orientation.pot
+\templates\presentations\financial report.pot
+\templates\presentations\general (long).pot
+\templates\presentations\general.pot
+\templates\presentations\marketing plan.pot
+\templates\presentations\recommending a strategy (long).pot
+\templates\presentations\recommending a strategy.pot
+\templates\presentations\reporting progress (long).pot
+\templates\presentations\reporting progress.pot
+\templates\presentations\selling a product or idea (long).pot
+\templates\presentations\selling a product or idea.pot
+\templates\presentations\top ten list.pot
+\templates\presentations\training (long).pot
+\templates\presentations\training.pot
+WINDIR\shellnew\ppt70.ppt
+
+[RISKY, POWERPOINT97] "Microsoft PowerPoint 97"
+MSAPPS9XDIR\clipart\mmedia\mmedia.cag
+\clipart\photos\photos.cag
+\clipart\powerpnt\powerpnt.cag
+\clipart\scrbeans\scrbeans.cag
+OFFICEROOT97DIR\clipart\popular\agree.wmf
+\clipart\popular\amconfus.wmf
+\clipart\popular\amdisast.wmf
+\clipart\popular\amhappy.wmf
+\clipart\popular\amidea.wmf
+\clipart\popular\amorgani.wmf
+\clipart\popular\amproble.wmf
+\clipart\popular\amvictor.wmf
+\clipart\popular\amwin.wmf
+\clipart\popular\arrows1.wmf
+\clipart\popular\arrows2.wmf
+\clipart\popular\arrows3.wmf
+\clipart\popular\arrows4.wmf
+\clipart\popular\arrows5.wmf
+\clipart\popular\arrows6.wmf
+\clipart\popular\arrows7.wmf
+\clipart\popular\arrows8.wmf
+\clipart\popular\arrowsgn.wmf
+\clipart\popular\bandaid.wmf
+\clipart\popular\beartrap.wmf
+\clipart\popular\bomb.wmf
+\clipart\popular\brick.wmf
+\clipart\popular\building.wmf
+\clipart\popular\car.wmf
+\clipart\popular\champgne.wmf
+\clipart\popular\checkmrk.wmf
+\clipart\popular\clap.wmf
+\clipart\popular\clock.wmf
+\clipart\popular\coins.wmf
+\clipart\popular\darts.wmf
+\clipart\popular\destryer.wmf
+\clipart\popular\dice.wmf
+\clipart\popular\diploma.wmf
+\clipart\popular\dominoes.wmf
+\clipart\popular\donkey.wmf
+\clipart\popular\door.wmf
+\clipart\popular\dove.wmf
+\clipart\popular\dynamite.wmf
+\clipart\popular\examine.wmf
+\clipart\popular\fistslam.wmf
+\clipart\popular\flower.wmf
+\clipart\popular\hammer.wmf
+\clipart\popular\hatecomp.wmf
+\clipart\popular\hndshak1.wmf
+\clipart\popular\hndshak2.wmf
+\clipart\popular\hndshak3.wmf
+\clipart\popular\jetplane.wmf
+\clipart\popular\jigsaw.wmf
+\clipart\popular\key.wmf
+\clipart\popular\light.wmf
+\clipart\popular\lion.wmf
+\clipart\popular\lock.wmf
+\clipart\popular\magichat.wmf
+\clipart\popular\magnify.wmf
+\clipart\popular\meeting.wmf
+\clipart\popular\meeting2.wmf
+\clipart\popular\money.wmf
+\clipart\popular\moneybag.wmf
+\clipart\popular\oildrill.wmf
+\clipart\popular\openhand.wmf
+\clipart\popular\pop97.cag
+\clipart\popular\ptrup.wmf
+\clipart\popular\rabbit.wmf
+\clipart\popular\ribbon.wmf
+\clipart\popular\runner.wmf
+\clipart\popular\sailboat.wmf
+\clipart\popular\scales.wmf
+\clipart\popular\shark.wmf
+\clipart\popular\soccer.wmf
+\clipart\popular\star.wmf
+\clipart\popular\stop.wmf
+\clipart\popular\stoplght.wmf
+\clipart\popular\tennis.wmf
+\clipart\popular\thumbdn.wmf
+\clipart\popular\triumph.wmf
+\clipart\popular\trophy.wmf
+\clipart\popular\turtle.wmf
+\clipart\popular\wearhat.wmf
+\clipart\popular\whatnow.wmf
+\clipart\popular\yinyang.wmf
+\templates\blank presentation.pot
+\templates\presentation designs\angles.pot
+\templates\presentation designs\blush.pot
+\templates\presentation designs\contemporary portrait.pot
+\templates\presentation designs\contemporary.pot
+\templates\presentation designs\dads tie.pot
+\templates\presentation designs\fans.pot
+\templates\presentation designs\fireball.pot
+\templates\presentation designs\high voltage.pot
+\templates\presentation designs\meadow.pot
+\templates\presentation designs\notebook.pot
+\templates\presentation designs\portrait notebook.pot
+\templates\presentation designs\professional.pot
+\templates\presentation designs\pulse.pot
+\templates\presentation designs\ribbons.pot
+\templates\presentation designs\serene.pot
+\templates\presentation designs\whirlpool.pot
+\templates\presentation designs\zesty.pot
+\templates\presentation designs\笔记本型模板.pot
+\templates\presentation designs\彩带型模板.pot
+\templates\presentation designs\彩晕型模板.pot
+\templates\presentation designs\草地型模板.pot
+\templates\presentation designs\场景型模板.pot
+\templates\presentation designs\冲动型模板.pot
+\templates\presentation designs\记事本型模板.pot
+\templates\presentation designs\简洁型模板.pot
+\templates\presentation designs\狂热型模板.pot
+\templates\presentation designs\领带型模板.pot
+\templates\presentation designs\热切型模板.pot
+\templates\presentation designs\三色型模板.pot
+\templates\presentation designs\时代型模板.pot
+\templates\presentation designs\旋涡型模板.pot
+\templates\presentation designs\整洁型模板.pot
+\templates\presentation designs\专业型模板.pot
+\templates\presentation designs\彗星型模板.pot
+\templates\presentations\business plan (online).pot
+\templates\presentations\business plan (standard).pot
+\templates\presentations\company meeting (online).pot
+\templates\presentations\company meeting (standard).pot
+\templates\presentations\corporate financial overview (online).pot
+\templates\presentations\corporate financial overview (standard).pot
+\templates\presentations\corporate home page (online).pot
+\templates\presentations\corporate home page (standard).pot
+\templates\presentations\facilitating a meeting - dale carnegie training (r).pot
+\templates\presentations\flyer (online).pot
+\templates\presentations\flyer (standard).pot
+\templates\presentations\generic (online).pot
+\templates\presentations\generic (standard).pot
+\templates\presentations\h.r. information kiosk (online).pot
+\templates\presentations\h.r. information kiosk (standard).pot
+\templates\presentations\introducing a speaker - dale carnegie training (r).pot
+\templates\presentations\managing hr's changing role - dale carnegie training (r).pot
+\templates\presentations\marketing plan (online).pot
+\templates\presentations\marketing plan (standard).pot
+\templates\presentations\motivating a team - dale carnegie training (r).pot
+\templates\presentations\organization overview (online).pot
+\templates\presentations\organization overview (standard).pot
+\templates\presentations\personal home page (online).pot
+\templates\presentations\personal home page (standard).pot
+\templates\presentations\presentation guidelines - dale carnegie training (r).pot
+\templates\presentations\presenting a technical report - dale carnegie training (r).pot
+\templates\presentations\product overview (online).pot
+\templates\presentations\product overview (standard).pot
+\templates\presentations\project overview (online).pot
+\templates\presentations\project overview (standard).pot
+\templates\presentations\project status (online).pot
+\templates\presentations\project status (standard).pot
+\templates\presentations\recommending a strategy (online).pot
+\templates\presentations\recommending a strategy (standard).pot
+\templates\presentations\reporting progress (online).pot
+\templates\presentations\reporting progress (standard).pot
+\templates\presentations\selling your ideas - dale carnegie training (r).pot
+\templates\presentations\thanking a speaker - dale carnegie training (r).pot
+\templates\presentations\报告进展 (标准).pot
+\templates\presentations\报告进展 (联机).pot
+\templates\presentations\产品概述 (标准).pot
+\templates\presentations\产品概述 (联机).pot
+\templates\presentations\感谢演讲人 - dale carnegie training (r).pot
+\templates\presentations\个人主页 (标准).pot
+\templates\presentations\个人主页 (联机).pot
+\templates\presentations\公司会议 (标准).pot
+\templates\presentations\公司会议 (联机).pot
+\templates\presentations\海报 (标准).pot
+\templates\presentations\海报 (联机).pot
+\templates\presentations\介绍演讲人 - dale carnegie training (r).pot
+\templates\presentations\企业财政概况 (标准).pot
+\templates\presentations\企业财政概况 (联机).pot
+\templates\presentations\企业主页 (标准).pot
+\templates\presentations\企业主页 (联机).pot
+\templates\presentations\人力资源培训的成功关键 - dale carnegie training (r).pot
+\templates\presentations\人事信息 (标准).pot
+\templates\presentations\人事信息 (联机).pot
+\templates\presentations\商业计划 (标准).pot
+\templates\presentations\商业计划 (联机).pot
+\templates\presentations\市场计划 (标准).pot
+\templates\presentations\市场计划 (联机).pot
+\templates\presentations\通用信息 (标准).pot
+\templates\presentations\通用信息 (联机).pot
+\templates\presentations\推荐策略 (标准).pot
+\templates\presentations\推荐策略 (联机).pot
+\templates\presentations\推销您的想法 - dale carnegie training (r).pot
+\templates\presentations\项目概况 (标准).pot
+\templates\presentations\项目概况 (联机).pot
+\templates\presentations\项目状态 (标准).pot
+\templates\presentations\项目状态 (联机).pot
+\templates\presentations\学术演示 - dale carnegie training (r).pot
+\templates\presentations\演示技巧 - dale carnegie training (r).pot
+\templates\presentations\增进团队精神 - dale carnegie training (r).pot
+\templates\presentations\主持会议 - dale carnegie training (r).pot
+\templates\presentations\组织概况 (标准).pot
+\templates\presentations\组织概况 (联机).pot
+\templates\web pages\sample banner1.pot
+\templates\web pages\sample banner2.pot
+\templates\web pages\简单标志1.pot
+\templates\web pages\简单标志2.pot
+\templates\空演示文稿.pot
+
+[RISKY, POWERPOINT97, WORD97] "Microsoft PowerPoint and Word 97"
+MSAPPS9XDIR\clipart\office\office.cag
+OFFICEROOT97DIR\clipart\jpopular\cpop97.cag
+
+[RISKY, PROOF95] "Microsoft Office 95 Proofing Tools"
+MSAPPS9XDIR\proof\mssp2_ea.lex
+
+[RISKY, PUBLISHER3, PUBLISHER4, PUBLISHER5, PUBLISHERMSIREG] "Microsoft Publisher"
+WINDIR\shellnew\mspub.pub
+
+[RISKY, RUNFROMNETCD95] "Microsoft Office 95"
+OFFICEROOT95DIR\office\findfe.exe
+SYSDIR\bdrec.dll
+
+[RISKY, SBFM97] "Small Business Financial Manager 97"
+HKLM\Software\Microsoft\Office\8.0\Excel\SBFM
+HKLM\SOFTWARE\ODBC\odbc.ini\Small Business Financial Manager
+SBFM97DIR\aamyob60.dll
+\aamyob7x.dll
+\aap.cnt
+\aap.gid
+\aap.hlp
+\aapacc.dll
+\aapbww.dll
+\aapcgold.dll
+\aapdac.dll
+\aapgreat.dll
+\aapmas90.dll
+\aapone.dll
+\aappdos.dll
+\aappla44.dll
+\aapplat.dll
+\aappss.cnt
+\aappss.gid
+\aappss.hlp
+\aappw35.dll
+\aappw40.dll
+\aappw50.dll
+\aappwin.dll
+\aapqbw.dll
+\aapqbw40.dll
+\aapqbw50.dll
+\aaprdt.ico
+\aapsage4.dll
+\aapsim40.dll
+\aapsim50.dll
+\aapsimp.dll
+\analysis tools\business comparison\Business Comparison.xlt
+\analysis tools\business comparison\mscreate.dir
+\analysis tools\business comparison\RMA.ldb
+\analysis tools\business comparison\RMA.MDB
+\analysis tools\business comparison\Sic Codes.txt
+\analysis tools\create projection wizard\mscreate.dir
+\analysis tools\create projection wizard\Projection.exe
+\analysis tools\create projection wizard\Projections.xlt
+\analysis tools\mscreate.dir
+\analysis tools\projection reports\mscreate.dir
+\analysis tools\projection reports\Projected Balance Sheet.xls
+\analysis tools\projection reports\Projected Cash Flow.xls
+\analysis tools\projection reports\Projected changes in financial position.xls
+\analysis tools\projection reports\Projected Funds Flow.xls
+\analysis tools\projection reports\Projected Income Statement.xls
+\analysis tools\projection reports\Projected Profit & Loss.xls
+\analysis tools\projection reports\Projected statement of earnings.xls
+\analysis tools\projection reports\Projection Assumptions.xls
+\charts\Balance Sheet Composition.xls
+\charts\Cash Flow Trend.xls
+\charts\mscreate.dir
+\charts\Revenue-Expense Trend.xls
+\charts\Sales Composition.xls
+\database\mscreate.dir
+\database\Volcano Coffee Company.ldb
+\database\Volcano Coffee Company.mdb
+\mscreate.dir
+\qba.dll
+\qbdrivhk.dll
+\qbexp.exe
+\readme.txt
+\Report Workbook.xlt
+\reports\Balance Sheet.xls
+\reports\Cash Flow.xls
+\reports\Change in Shareholders Equity.xls
+\reports\Changes in Financial Position.xls
+\reports\Changes in Stockholders Equity.xls
+\reports\Funds Flow Statement.xls
+\reports\Income Statement.xls
+\reports\mscreate.dir
+\reports\Profit and Loss.xls
+\reports\Ratios.xls
+\reports\Sales Analysis.xls
+\reports\Shareholders Equity.xls
+\reports\Statement of Earnings.xls
+\reports\Trial Balance.xls
+\setup\acmsetup.hlp
+\setup\complinc.dll
+\setup\mscreate.dir
+\setup\mssetup.dll
+\setup\odbckey.inf
+\setup\odbcstf.dll
+\setup\sbfmstp.dll
+\setup\sbfmstp.exe
+\setup\sbfmstp.inf
+\setup\sbfmstp.stf
+\setup\setup.ini
+\setup\setup.tdf
+\template.ldb
+\template.mdb
+\What-If Workbook.xls
+\What-If.xla
+SYSDIR\msaap.dll
+\msaap.xla
+\sbfm20.xla
+\sbfmpid.dll
+
+[RISKY, SCHEDULE95, SCHEDULE97, OUTLOOK97] "Microsoft Schedule+ and Outlook"
+OFFICEROOT95DIR\office\av41206.fmt
+
+[RISKY, SCHEDULE95, SCHEDULE97, OUTLOOK97, OUTLOOKMSIREG] "Microsoft Schedule+ and Outlook"
+HKLM\Software\Microsoft\Exchange\Client\Extensions\Outlook Setup Extension
+HKLM\Software\Microsoft\Schedule+\Application
+
+[RISKY, SYSTEM95] "Microsoft Office 95"
+HKLM\Software\Microsoft\Windows\Help\Vbade2a.aw
+HKLM\Software\Microsoft\Windows\Help\Vbade2a.cnt
+HKLM\Software\Microsoft\Windows\Help\Vbade2a.hlp
+SHAREDDLL=SYSDIR\selfreg.dll
+SYSDIR\gapi.dll
+\msvcp50.dll
+\sdmdbcs.dll
+\selfreg.dll
+
+[RISKY, TEXTCONV95] "Microsoft Office 95 Text Converters"
+MSAPPS9XDIR\textconv\html32.cnv
+\textconv\msconv97.dll
+\textconv\mscthunk.dll
+\textconv\msencode.dll
+\textconv\mswrd832.cnv
+\textconv\nims32.dll
+\textconv\recovr32.cnv
+\textconv\wrd6er32.cnv
+\textconv\wrd6ex32.cnv
+\textconv\wword5.cnv
+
+[RISKY, WORD94] "Microsoft Word 6.0"
+WINDIR\winword6.ini
+WORD94DIR\template\agenda.wiz
+\template\award.wiz
+\template\brochur1.dot
+\template\calendar.wiz
+\template\classic1.wzs
+\template\classic2.wzs
+\template\classic3.wzs
+\template\classic4.wzs
+\template\directr1.dot
+\template\fax.wiz
+\template\faxcovr1.dot
+\template\faxcovr2.dot
+\template\invoice.dot
+\template\letter.wiz
+\template\letter1.dot
+\template\letter2.dot
+\template\letter3.dot
+\template\manual1.dot
+\template\manuscr1.dot
+\template\manuscr3.dot
+\template\memo.wiz
+\template\memo1.dot
+\template\memo2.dot
+\template\memo3.dot
+\template\modern1.wzs
+\template\modern2.wzs
+\template\modern3.wzs
+\template\modern4.wzs
+\template\newslttr.wiz
+\template\pleading.wiz
+\template\present1.dot
+\template\presrel1.dot
+\template\presrel2.dot
+\template\presrel3.dot
+\template\purchord.dot
+\template\report1.dot
+\template\report2.dot
+\template\report3.dot
+\template\resume.wiz
+\template\resume1.dot
+\template\resume2.dot
+\template\resume4.dot
+\template\table.wiz
+\template\thesis1.dot
+\template\weektime.dot
+\template\wishfax.dot
+\winword.opt
+
+[RISKY, WORD94, WORD95, WORD97] "Microsoft Word"
+SYSMENUPROGRAMSDIR\Microsoft Office\Word Setup.lnk
+\Microsoft Office\Word 安装程序.lnk
+
+[RISKY, WORD95] "Microsoft Word 95"
+OFFICEROOT95DIR\templates\letters & faxes\contemporary fax.dot
+\templates\letters & faxes\contemporary letter.dot
+\templates\letters & faxes\elegant fax.dot
+\templates\letters & faxes\elegant letter.dot
+\templates\letters & faxes\professional fax.dot
+\templates\letters & faxes\professional letter.dot
+\templates\memos\contemporary memo.dot
+\templates\memos\elegant memo.dot
+\templates\memos\professional memo.dot
+\templates\other documents\contemporary resume.dot
+\templates\other documents\elegant resume.dot
+\templates\other documents\invoice.dot
+\templates\other documents\professional resume.dot
+\templates\other documents\purchase order.dot
+\templates\other documents\weekly time sheet.dot
+\templates\publications\brochure.dot
+\templates\publications\contemporary press release.dot
+\templates\publications\directory.dot
+\templates\publications\elegant press release.dot
+\templates\publications\manual.dot
+\templates\publications\newsletter.dot
+\templates\publications\professional press release.dot
+\templates\publications\thesis.dot
+\templates\reports\contemporary report.dot
+\templates\reports\elegant report.dot
+\templates\reports\professional report.dot
+WINDIR\shellnew\wordia.htm
+WORD95DIR\email.dot
+\email1.dot
+\email2.dot
+\email3.dot
+\letters\adpr01.dot
+\letters\cred01.dot
+\letters\cred05.dot
+\letters\cred11.dot
+\letters\cstmrc01.dot
+\letters\cstmrc03.dot
+\letters\cstmrr03.dot
+\letters\cstmrr05.dot
+\letters\emprl02.dot
+\letters\emprl03.dot
+\letters\mktg02.dot
+\letters\mktg07.dot
+\letters\other10.dot
+\letters\space03.dot
+\letters\suppl14.dot
+\macros\convert7.dot
+\macros\layout7.dot
+\macros\macros7.dot
+\macros\present7.dot
+\macros\tables7.dot
+
+[RISKY, WORD97] "Microsoft Word 97"
+OFFICE97DIR\letters\adpr01.dot
+\letters\cred01.dot
+\letters\cred05.dot
+\letters\cred11.dot
+\letters\cstmrc01.dot
+\letters\cstmrc03.dot
+\letters\cstmrr03.dot
+\letters\cstmrr05.dot
+\letters\emprl02.dot
+\letters\emprl03.dot
+\letters\mktg02.dot
+\letters\mktg07.dot
+\letters\other10.dot
+\letters\space03.dot
+\letters\suppl14.dot
+OFFICEROOT97DIR\templates\eibun\blank document.dot
+\templates\eibun\contemporary letter.dot
+\templates\eibun\contemporary memo.dot
+\templates\eibun\elegant letter.dot
+\templates\eibun\elegant memo.dot
+\templates\eibun\professional letter.dot
+\templates\eibun\professional memo.dot
+\templates\letters & faxes\contemporary fax.dot
+\templates\letters & faxes\contemporary letter.dot
+\templates\letters & faxes\elegant fax.dot
+\templates\letters & faxes\elegant letter.dot
+\templates\letters & faxes\professional fax.dot
+\templates\letters & faxes\professional letter.dot
+\templates\letters & faxes\典雅型传真.dot
+\templates\letters & faxes\典雅型信函.dot
+\templates\letters & faxes\现代型传真.dot
+\templates\letters & faxes\现代型信函.dot
+\templates\letters & faxes\专业型传真.dot
+\templates\letters & faxes\专业型信函.dot
+\templates\local3\contemporary resume.dot
+\templates\local3\elegant fax.dot
+\templates\local3\elegant resume.dot
+\templates\local3\professional fax.dot
+\templates\local3\professional resume.dot
+\templates\memos\contemporary memo.dot
+\templates\memos\elegant memo.dot
+\templates\memos\professional memo.dot
+\templates\memos\典雅型备忘录.dot
+\templates\memos\现代型备忘录.dot
+\templates\memos\专业型备忘录.dot
+\templates\other documents\address.doc
+\templates\other documents\address.ldb
+\templates\other documents\address.mdb
+\templates\other documents\address.xls
+\templates\other documents\contemporary resume.dot
+\templates\other documents\elegant resume.dot
+\templates\other documents\more templates and wizards.dot
+\templates\other documents\professional resume.dot
+\templates\other documents\典雅型简历.dot
+\templates\other documents\其他模板和向导.dot
+\templates\other documents\现代型简历.dot
+\templates\other documents\专业型简历.dot
+\templates\outlook\email.oft
+\templates\outlook\flame.oft
+\templates\outlook\hightech.oft
+\templates\outlook\midnight.oft
+\templates\outlook\ocean.oft
+\templates\outlook\rain.oft
+\templates\outlook\urgent.oft
+\templates\outlook\电子邮件模板.oft
+\templates\outlook\高科技型模板.oft
+\templates\outlook\海洋型模板.oft
+\templates\outlook\火焰型模板.oft
+\templates\outlook\紧急型模板.oft
+\templates\outlook\午夜型模板.oft
+\templates\outlook\细雨型模板.oft
+\templates\reports\contemporary report.dot
+\templates\reports\elegant report.dot
+\templates\reports\professional report.dot
+\templates\reports\典雅型报告.dot
+\templates\reports\公文向导.wiz
+\templates\reports\实用文体向导.wiz
+\templates\reports\现代型报告.dot
+WORD97DIR\email.dot
+\电子邮件模板.dot
+
+[RISKY, WORD97, WORDMSIREG] "Microsoft Word"
+WINDIR\shellnew\winword8.doc
+
+[SAFE, ACCESS94, ACCESS94RT] "Microsoft Access 2.0"
+ACCESS94DIR\setup\acmsetup.ftg
+\setup\acmsetup.fts
+
+[SAFE, ACCESS94, ACCESS94RT, EXCEL94, POWERPOINT94, WORD94] "Microsoft Office 4.x"
+MENU_ITEM=Microsoft Office\Microsoft Imager
+
+[SAFE, ACCESS95] "Microsoft Access 95"
+ACCESS95DIR\mscreate.dir
+\samples\solution.ftg
+\samples\solution.fts
+\samples\solution.gid
+\soa301.dll
+\utility.95
+OFFICEROOT95DIR\access\IA95\setup\acmsetup.ftg
+\access\IA95\setup\acmsetup.fts
+USER_MODIFIABLE_FILE=ACCESS95DIR\samples\northwind.ldb
+USER_MODIFIABLE_FILE=ACCESS95DIR\samples\orders.ldb
+USER_MODIFIABLE_FILE=ACCESS95DIR\samples\solutions.ldb
+
+[SAFE, ACCESS95, ACCESS97, ACCESSMSIREG, EXCEL95, EXCEL97, EXCELMSIREG, POWERPOINT95, POWERPOINT97, POWERPOINTMSIREG, SCHEDULE95, WORD95, WORD97, WORDMSIREG] "Microsoft Access, Excel, PowerPoint and Word "
+SHAREDDLL=MSAPPS9XDIR\proof\mswds_en.lex
+
+[SAFE, ACCESS95, ACCESS97, EXCEL95, EXCEL97, OUTLOOK97, POWERPOINT95, POWERPOINT97, PROJECT95, PROJECT98, SCHEDULE95, WORD95, WORD97] "Microsoft Office"
+SHAREDDLL=OFFICEROOT95DIR\office\fastboot.exe
+
+[SAFE, ACCESS95, EXCEL95, POWERPOINT95, PROJECT95, WORD95] "Microsoft Office 95 Setup"
+OFFICEROOT95DIR\office\setup\setup.lst
+
+[SAFE, ACCESS95, EXCEL95, POWERPOINT95, PROJECT95, WORD95, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, WORD97, PROJECT98, ACCESSMSIREG, EXCELMSIREG, OUTLOOKMSIREG, POWERPOINTMSIREG, WORDMSIREG, PROJECTMSIREG] "Microsoft Office"
+SHAREDDLL=SYSDIR\ffastlog.txt
+SYSDIR\ffastlog.txt
+
+[SAFE, ACCESS95, EXCEL95, POWERPOINT95, SCHEDULE95, WORD95] "Microsoft Office 95 ShortCut Bar"
+OFFICEROOT95DIR\office\msow.exe
+\office\msowfe.exe
+\office\shortcutbar\mscreate.dir
+\office\shortcutbar\msdos.pif
+\office\shortcutbar\office.tbb
+\office\shortcutbar\office\mscreate.dir
+\office\shortcutbar\officeh.bmp
+\office\shortcutbar\officeh.tbb
+\office\shortcutbar\offices.tbb
+\office\shortcutbar\officev.bmp
+
+[SAFE, ACCESS95, EXCEL95, POWERPOINT95, SCHEDULE95, WORD95, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, WORD97] "Microsoft Office ShortCut Bar"
+MENU_ITEM=Startup\Microsoft Office 快捷工具栏
+
+[SAFE, ACCESS95, EXCEL95, POWERPOINT95, WORD95] "Microsoft Office 95 ShortCut Bar"
+OFFICEROOT95DIR\office\shortcut bar\msdos.pif
+\office\shortcut bar\office\打印机.lnk
+\office\shortcut bar\office\控制面板.lnk
+\office\shortcut bar\office\屏幕保护.lnk
+
+[SAFE, ACCESS97] "Microsoft Access 97"
+ACCESS97DIR\fewizard.srg
+\msain8en.dll
+OFFICEROOT97DIR\microsoft access 中文版安装程序.lnk
+\templates\access\100.htm
+\templates\access\100.jpg
+\templates\access\default.htm
+\templates\access\gray.htm
+\templates\access\gray.jpg
+\templates\access\grayst.htm
+\templates\access\grayst.jpg
+\templates\access\mc.htm
+\templates\access\mc.jpg
+\templates\access\mcst.htm
+\templates\access\mcst.jpg
+\templates\access\msaccess.jpg
+\templates\access\sky.htm
+\templates\access\sky.jpg
+\templates\access\stones.htm
+\templates\access\stones.jpg
+\templates\access\tiles.htm
+\templates\access\tiles.jpg
+\templates\access\zigzag.htm
+\templates\access\zigzag.jpg
+\templates\databases\address book.mdz
+\templates\databases\asset tracking.mdz
+\templates\databases\book collection.mdz
+\templates\databases\contact management.mdz
+\templates\databases\donations.mdz
+\templates\databases\event management.mdz
+\templates\databases\expenses.mdz
+\templates\databases\household inventory.mdz
+\templates\databases\inventory control.mdz
+\templates\databases\ledger.mdz
+\templates\databases\membership.mdz
+\templates\databases\music collection.mdz
+\templates\databases\order entry.mdz
+\templates\databases\picture library.mdz
+\templates\databases\recipes.mdz
+\templates\databases\resource scheduling.mdz
+\templates\databases\service call management.mdz
+\templates\databases\students and classes.mdz
+\templates\databases\time and billing.mdz
+\templates\databases\video collection.mdz
+\templates\databases\wine list.mdz
+\templates\databases\workout.mdz
+\templates\databases\地址簿.mdz
+\templates\databases\订单入口.mdz
+\templates\databases\分类总帐.mdz
+\templates\databases\服务请求管理.mdz
+\templates\databases\工时与帐单.mdz
+\templates\databases\会员.mdz
+\templates\databases\家庭物品清单.mdz
+\templates\databases\健身.mdz
+\templates\databases\讲座管理.mdz
+\templates\databases\捐赠.mdz
+\templates\databases\库存控制.mdz
+\templates\databases\联系管理.mdz
+\templates\databases\录影集.mdz
+\templates\databases\葡萄酒清单.mdz
+\templates\databases\食谱.mdz
+\templates\databases\书本集.mdz
+\templates\databases\图片库.mdz
+\templates\databases\学生和课程.mdz
+\templates\databases\音乐集.mdz
+\templates\databases\支出.mdz
+\templates\databases\资产追踪.mdz
+\templates\databases\资源调度.mdz
+USER_MODIFIABLE_FILE=ACCESS97DIR\samples\northwind.ldb
+USER_MODIFIABLE_FILE=ACCESS97DIR\samples\orders.ldb
+USER_MODIFIABLE_FILE=ACCESS97DIR\samples\solutions.ldb
+
+[SAFE, ACCESS97, ACCESS97RT] "Microsoft Access 97"
+SYSDIR\wrkgadm.exe
+
+[SAFE, ACCESS97, ACCESS97RT, POWERPOINT97, WORD97] "Microsoft Graph 97"
+OFFICE97DIR\gr8804.dll
+\gr_vba.ftg
+\gr_vba.fts
+\gr_vba.gid
+\grchs50.olb
+\gren50.olb
+
+[SAFE, ACCESS97, EXCEL97, MSDRAW97, MSDRAW98, OUTLOOK97, PHOTODRAW1, POWERPOINT97, PROJECT98, PUBLISHER5, WORD97] "Microsoft Office"
+HKLM\Software\Microsoft\Windows\Help\mso97.dll
+OFFICE97DIR\mso7chs.dll
+
+[SAFE, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, PUBLISHER5, WORD97] "Microsoft Office"
+SHAREDDLL=OFFICE97DIR\actors\clippit.act
+
+[SAFE, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, WORD97] "Microsoft Office"
+MENU_ITEM=Startup\Office 启动
+OFFICE97DIR\eula8.gid
+\setup\off97pro.stf
+\setup\off97std.sdf
+\setup\setup.lst
+\shortcut bar\mscreate.dir
+\shortcut bar\office\mscreate.dir
+OFFICEROOT97DIR\mscreate.dir
+
+[SAFE, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, WORD97] "Microsoft Office 97 ShortCut Bar"
+OFFICE97DIR\pss8.fts
+\pss8.gid
+\shortcut bar\office\打印机.lnk
+\shortcut bar\office\新便笺.lnk
+\shortcut bar\office\新联系人.lnk
+\shortcut bar\office\新任务.lnk
+\shortcut bar\office\新日记条目.lnk
+\shortcut bar\office\新邮件.lnk
+\shortcut bar\office\新约会.lnk
+\veenlr3.gid
+
+[SAFE, DMM97, DMM9PLUS] "Direct Mail Manager"
+SYSDIR\emdaz32.dll
+\emlcns32.dll
+
+[SAFE, EQUATION95, EQUATION97, EQUATIONMSIREG] "Microsoft Office Equation Editor"
+MSAPPS9XDIR\equation\veenmc3.ftg
+\equation\veenmc3.fts
+\equation\veenmc3.gid
+
+[SAFE, EXCEL94] "Microsoft Excel 5.0"
+EXCEL94DIR\setup\acmsetup.ftg
+\setup\acmsetup.fts
+
+[SAFE, EXCEL95] "Microsoft Excel 95"
+EXCEL95DIR\library\analysis\atpvbacs.xla
+\xl5chs32.olb
+\xlstart\mswfx95.xls
+OFFICEROOT95DIR\clipart\account.bmp
+\clipart\auto.bmp
+\clipart\flower.bmp
+\clipart\hardware.bmp
+\clipart\legal.bmp
+\clipart\medical.bmp
+\clipart\music.bmp
+\clipart\software.bmp
+\clipart\sports.bmp
+\clipart\tapes.bmp
+USER_MODIFIABLE_FILE=EXCEL95DIR\library\common.xls
+
+[SAFE, EXCEL95, EXCEL97, EXCELMSIREG] "DataMap"
+HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Excel
+
+[SAFE, EXCEL95, POWERPOINT95, PROJECT94, PROJECT95] "Microsoft Excel, PowerPoint and Project"
+MSAPPS9XDIR\vba\vbach.aw
+\vba\vbach.cnt
+\vba\vbach.hlp
+
+[SAFE, EXCEL95, POWERPOINT95, WORD95, EXCEL97, WORD97, POWERPOINT97] "Microsoft Office Binder"
+SYSMENUPROGRAMSDIR\microsoft 活页夹.lnk
+
+[SAFE, EXCEL95, POWERPOINT95, WORD95, EXCEL97, WORD97, POWERPOINT97, EXCELMSIREG, POWERPOINTMSIREG, WORDMSIREG] "Microsoft Office Binder"
+HKLM\Software\Microsoft\Windows\CurrentVersion\App Paths\binder.exe
+
+[SAFE, EXCEL97] "Microsoft Excel 97"
+EXCEL97DIR\library\analysis\atpvbacs.xla
+\setup\mscreate.dir
+\xl5chs32.olb
+\xl8804.dll
+\xltmplt8.fts
+\xltmplt8.gid
+HKLM\Software\Microsoft\Windows\Help\workfunc.aw
+HKLM\Software\Microsoft\Windows\Help\xlmacr8.hlp
+HKLM\Software\Microsoft\Windows\Help\xlmain8.aw
+HKLM\Software\Microsoft\Windows\Help\xlmain8.cnt
+HKLM\Software\Microsoft\Windows\Help\xlmain8.hlp
+HKLM\Software\Microsoft\Windows\Help\xlnew8.cnt
+HKLM\Software\Microsoft\Windows\Help\xlnew8.hlp
+HKLM\Software\Microsoft\Windows\Help\xltip8.hlp
+HKLM\Software\Microsoft\Windows\Help\xltmplt.hlp
+OFFICEROOT97DIR\microsoft excel 中文版安装程序.lnk
+SHAREDDLL=EXCEL97DIR\recncl.dll
+SYSDESKTOPDIR\Microsoft Small Business Financial Manager.lnk
+SYSMENUPROGRAMSDIR\Microsoft Small Business Financial Manager.lnk
+USER_MODIFIABLE_FILE=EXCEL97DIR\library\common.xls
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\spreadsheet solutions\expense statement.xlt
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\spreadsheet solutions\invoice.xlt
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\spreadsheet solutions\purchase order.xlt
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\spreadsheet solutions\village software.xlt
+
+[SAFE, EXCEL97, POWERPOINT97, WORD97] "Microsoft Office 97 Bookshelf Basics"
+OFFICE97DIR\shortcut bar\quickshelf\mscreate.dir
+OFFICEROOT97DIR\aamstp\app\mscreate.dir
+\aamstp\mscreate.dir
+
+[SAFE, EXCEL97, WORD97, POWERPOINT97] "Microsoft Office 97 Binder"
+OFFICE97DIR\veenmc3.gid
+OFFICEROOT97DIR\bdrec.dll
+\bdrintl.dll
+\binder.exe
+\binder.obd
+\binder8.gid
+\microsoft 活页夹.lnk
+\vbabdr8.gid
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\binders\meeting organizer.obt
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\binders\proposal and marketing plan.obt
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\binders\报告型模板.obt
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\binders\会议组织型模板.obt
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\binders\预案及市场计划型模板.obt
+
+[SAFE, FRONTPAGE1X] "Microsoft FrontPage 1.1"
+FRONTPAGE1XDIR\webs\custsupp.tem\cusuafte.htm
+
+[SAFE, GRAPH95, ACCESS95RT] "Microsoft Graph"
+STARTMENU94DIR\图表自动转换器.lnk
+
+[SAFE, IMAGER95] "Microsoft Imager 95"
+IMAGER95DIR\mscreate.dir
+
+[SAFE, EXCEL94, MSQUERY94, EXCEL95, MSQUERY95] "Microsoft Office Query"
+MSAPPS9XDIR\msquery\dbcs3032.dll
+
+[SAFE, EXCEL94, MSQUERY94, EXCEL95, MSQUERY95, EXCEL97, MSQUERY97] "Microsoft Office Query"
+WINDIR\ODBC\data sources\visual foxpro table (not sharable).dsn
+
+[SAFE, EXCEL95, MSQUERY95] "Microsoft Office 95 Query"
+MSAPPS9XDIR\msquery\msqry32.cue
+
+[SAFE, OUTLOOK97] "Microsoft Outlook"
+HKLM\Software\Microsoft\Windows\Help\outlimep.cnt
+HKLM\Software\Microsoft\Windows\Help\outlimep.hlp
+HKLM\Software\Microsoft\Windows\Help\vbaoutl.cnt
+HKLM\Software\Microsoft\Windows\Help\vbaoutl.hlp
+OFFICEROOT97DIR\microsoft outlook 中文版安装程序.lnk
+OUTLOOK97DIR\exchng.cnt
+\outlook.prf
+\setup\outook\mscreate.dir
+SYSMENUPROGRAMSDIR\accessories\system tools\inbox repair tool.lnk
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\公告型模板.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\联系人型模板.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\任务型模板.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\外出留言.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\邮件型模板.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\约会型模板.oft
+
+[SAFE, OUTLOOK97, OUTLOOKMSIREG] "Microsoft Outlook"
+HKCR\CLSID\{00020344-0000-0000-C000-000000000046}
+HKCR\CLSID\{00020D09-0000-0000-C000-000000000046}
+HKLM\Software\Microsoft\Exchange\Client\Extensions\Internet Mail
+HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{00020D75-0000-0000-C000-000000000046}
+HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Outlook 98
+
+[SAFE, PHOTOED97] "Microsoft PhotoEditor 97"
+OFFICEROOT97DIR\microsoft 照片编辑器.lnk
+
+[SAFE, POWERPOINT94, POWERPOINT95, POWERPOINT97] "Microsoft PowerPoint"
+HKLM\Config\0001\System\CurrentControlSet\Control\Print\Printers\Genigraphics? Driver
+HKLM\System\CurrentControlSet\control\Print\Environments\Windows 4.0\Drivers\Genigraphics? Driver
+WIN.INI, devices, Genigraphics? Driver
+WIN.INI, printerports, Genigraphics? Driver
+
+[SAFE, POWERPOINT95] "Microsoft PowerPoint 95"
+POWERPOINT95DIR\setup\ppt95inv.dll
+SYSDIR\vbaend32.dll
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\templates\blank presentation.pot
+
+[SAFE, POWERPOINT97] "Microsoft PowerPoint 97"
+HKLM\Software\Microsoft\Windows\Help\ppmain8.aw
+HKLM\Software\Microsoft\Windows\Help\ppmain8.cnt
+HKLM\Software\Microsoft\Windows\Help\ppmain8.hlp
+HKLM\Software\Microsoft\Windows\Help\ppnew8.hlp
+HKLM\Software\Microsoft\Windows\Help\ppnew9.cnt
+HKLM\Software\Microsoft\Windows\Help\pptip8.hlp
+OFFICE97DIR\chammer.dll
+\pintlgb.imd
+\pintlgd.imd
+\pintlgs.imd
+\pintlgu.imd
+\tintlgl.imd
+OFFICEROOT97DIR\templates\presentations\内容提示向导.pwz
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\空演示文稿.pot
+WINDIR\media\office97\applause.wav
+\media\office97\mscreate.dir
+
+[SAFE, PUBLISHER3, PUBLISHER4] "Microsoft Publisher"
+SYSMENUPROGRAMSDIR\Microsoft Publisher\MICROSOFT PUBLISHER.LNK
+
+[SAFE, PUBLISHER3, PUBLISHER4, PUBLISHER5, PUBLISHERMSIREG] "Microsoft Publisher"
+SYSDIR\mspub.inf
+\printer.inf
+\pub3brsh.ani
+SYSMENUPROGRAMSDIR\MICROSOFT PUBLISHER.LNK
+
+[SAFE, PUBLISHER4, PUBLISHER5] "Microsoft Publisher"
+SYSDIR\MSGENBW.PPD
+\MSGENCOL.PPD
+
+[SAFE, PUBLISHER5] "Microsoft Publisher 98"
+PUBLISHER5DIR\Bgrounds\wb00516l.gif
+\Bgrounds\wb00530l.gif
+\Bgrounds\wb00531l.gif
+\Bgrounds\wb00546l.gif
+\Bgrounds\wb00673l.gif
+\Bgrounds\wb00703l.gif
+\Bgrounds\wb00742l.gif
+\Bgrounds\wb00756l.gif
+\Bgrounds\wb00760l.gif
+\Bgrounds\wb00780l.gif
+\Bgrounds\wb00785l.gif
+\Bgrounds\wb00819l.gif
+\Bgrounds\wb01215l.gif
+\Bgrounds\wb01231l.gif
+\Bgrounds\wb01249l.gif
+\Bgrounds\wb01252l.gif
+\Bgrounds\wb01302l.gif
+\Bgrounds\wb01304l.gif
+\Bgrounds\wb01308l.gif
+\Bgrounds\wb01329l.gif
+\Bgrounds\wb01331l.gif
+\Bgrounds\wb01739l.gif
+\Bgrounds\wb01741l.gif
+\Bgrounds\wb01754l.gif
+\Bgrounds\wb01769l.gif
+\Bgrounds\wb02035_.gif
+\Bgrounds\wb02036_.gif
+\Bgrounds\wb02037_.gif
+\Bgrounds\wb02038_.gif
+\Bgrounds\wb02039_.gif
+\Bgrounds\wb02040_.gif
+\Bgrounds\wb02041_.gif
+\Bgrounds\wb02042_.gif
+\Bgrounds\wb02043_.gif
+\Bgrounds\wb02044_.gif
+\Bgrounds\wb02045_.gif
+\Bgrounds\wb02046_.gif
+\Bgrounds\wb02047_.gif
+\Bgrounds\wb02048_.gif
+\Bgrounds\wb02049_.gif
+\Bgrounds\wb02050_.gif
+\Bgrounds\wb02051_.gif
+\Bgrounds\wb02052_.gif
+\Bgrounds\wb02053_.gif
+\Bgrounds\wb02054_.gif
+\Bgrounds\wb02055_.gif
+\Bgrounds\wb02056_.gif
+\Bgrounds\wb02057_.gif
+\Bgrounds\wb02058_.gif
+\Bgrounds\wb02059_.gif
+\Bgrounds\wb02060_.gif
+\Bgrounds\wb02061_.gif
+\Bgrounds\wb02062_.gif
+\Bgrounds\wb02063_.gif
+\Bgrounds\wb02064_.gif
+\Bgrounds\wb02065_.gif
+\Bgrounds\wb02066_.gif
+\Bgrounds\wb02067_.gif
+\Bgrounds\wb02068_.gif
+\Bgrounds\wb02069_.gif
+\Bgrounds\wb02070_.gif
+\Bgrounds\wb02071_.gif
+\Bgrounds\wb02072_.gif
+\Bgrounds\wb02073_.gif
+\Bgrounds\wb02074_.gif
+\Bgrounds\wb02075_.gif
+\Bgrounds\wb02076_.gif
+\Bgrounds\wb02077_.gif
+\Bgrounds\wb02078_.gif
+\Bgrounds\wb02079_.gif
+\Bgrounds\wb02080_.gif
+\Bgrounds\wb02081_.gif
+\Bgrounds\wb02082_.gif
+\Bgrounds\wb02083_.gif
+\Bgrounds\wb02084_.gif
+\Bgrounds\wb02085_.gif
+\Bgrounds\wb02086_.gif
+\Bgrounds\wb02087_.gif
+\Bgrounds\wb02088_.gif
+\Bgrounds\wb02089_.gif
+\Bgrounds\wb02090_.gif
+\Bgrounds\wb02091_.gif
+\Bgrounds\wb02092_.gif
+\Bgrounds\wb02093_.gif
+\Bgrounds\wb02094_.gif
+\Bgrounds\wb02095_.gif
+\Bgrounds\wb02096_.gif
+\Bgrounds\wb02097_.gif
+\Bgrounds\wb02098_.gif
+\Bgrounds\wb02099_.gif
+\Bgrounds\wb02100_.gif
+\Bgrounds\wb02101_.gif
+\Bgrounds\wb02102_.gif
+\Bgrounds\wb02103_.gif
+\Bgrounds\wb02104_.gif
+\Bgrounds\wb02105_.gif
+\Bgrounds\wb02106_.gif
+\Bgrounds\wb02107_.gif
+\Bgrounds\wb02108_.gif
+\Bgrounds\wb02109_.gif
+\Bgrounds\wb02110_.gif
+\Bgrounds\wb02111_.gif
+\Bgrounds\wb02112_.gif
+\Bgrounds\wb02113_.gif
+\Bgrounds\wb02114_.gif
+\Bgrounds\wb02115_.gif
+\Bgrounds\wb02116_.gif
+\Bgrounds\wb02117_.gif
+\Bgrounds\wb02118_.gif
+\Bgrounds\wb02119_.gif
+\Bgrounds\wb02120_.gif
+\Bgrounds\wb02121_.gif
+\Bgrounds\wb02122_.gif
+\Bgrounds\wb02123_.gif
+\Bgrounds\wb02124_.gif
+\Bgrounds\wb02125_.gif
+\Bgrounds\wb02126_.gif
+\Bgrounds\wb02127_.gif
+\Bgrounds\wb02128_.gif
+\Bgrounds\wb02129_.gif
+\Bgrounds\wb02130_.gif
+\Bgrounds\wb02131_.gif
+\Bgrounds\wb02132_.gif
+\Bgrounds\wb02133_.gif
+\Bgrounds\wb02134_.gif
+\Bgrounds\wb02135_.gif
+\Bgrounds\wb02136_.gif
+\Bgrounds\wb02137_.gif
+\Bgrounds\wb02138_.gif
+\Bgrounds\wb02139_.gif
+\Bgrounds\wb02140_.gif
+\Bgrounds\wb02141_.gif
+\Bgrounds\wb02142_.gif
+\Bgrounds\wb02143_.gif
+\Bgrounds\wb02144_.gif
+\Bgrounds\wb02145_.gif
+\Bgrounds\wb02146_.gif
+\Bgrounds\wb02147_.gif
+\Bgrounds\wb02148_.gif
+\Bgrounds\wb02149_.gif
+\Bgrounds\wb02150_.gif
+\Bgrounds\wb02151_.gif
+\Bgrounds\wb02152_.gif
+\Bgrounds\wb02153_.gif
+\Bgrounds\wb02154_.gif
+\Bgrounds\wb02155_.gif
+\Bgrounds\wb02156_.gif
+\Bgrounds\wb02157_.gif
+\Bgrounds\wb02158_.gif
+\Bgrounds\wb02159_.gif
+\Bgrounds\wb02160_.gif
+\Bgrounds\wb02161_.gif
+\Bgrounds\wb02162_.gif
+\Bgrounds\wb02163_.gif
+\Bgrounds\wb02164_.gif
+\Bgrounds\wb02165_.gif
+\Bgrounds\wb02166_.gif
+\Bgrounds\wb02167_.gif
+\Bgrounds\wb02168_.gif
+\Bgrounds\wb02169_.gif
+\Bgrounds\wb02170_.gif
+\Bgrounds\wb02171_.gif
+\Bgrounds\wb02172_.gif
+\Bgrounds\wb02173_.gif
+\Bgrounds\wb02174_.gif
+\Bgrounds\wb02175_.gif
+\Bgrounds\wb02176_.gif
+\Bgrounds\wb02177_.gif
+\Bgrounds\wb02178_.gif
+\Bgrounds\wb02179_.gif
+\Bgrounds\wb02180_.gif
+\Bgrounds\wb02181_.gif
+\Bgrounds\wb02182_.gif
+\Bgrounds\wb02183_.gif
+\Bgrounds\wb02184_.gif
+\Bgrounds\wb02185_.gif
+\Bgrounds\wb02186_.gif
+\Bgrounds\wb02187_.gif
+\Bgrounds\wb02188_.gif
+\Bgrounds\wb02189_.gif
+\Bgrounds\wb02190_.gif
+\Bgrounds\wb02191_.gif
+\Bgrounds\wb02192_.gif
+\Bgrounds\wb02193_.gif
+\Bgrounds\wb02194_.gif
+\Bgrounds\wb02195_.gif
+\Bgrounds\wb02196_.gif
+\Bgrounds\wb02197_.gif
+\Bgrounds\wb02198_.gif
+\Bgrounds\wb02199_.gif
+\Bgrounds\wb02200_.gif
+\Bgrounds\wb02201_.gif
+\Bgrounds\wb02202_.gif
+\Bgrounds\wb02203_.gif
+\Bgrounds\wb02204_.gif
+\Bgrounds\wb02205_.gif
+\Bgrounds\wb02206_.gif
+\Bgrounds\wb02207_.gif
+\Bgrounds\wb02208_.gif
+\Bgrounds\wb02209_.gif
+\Bgrounds\wb02210_.gif
+\Bgrounds\wb02211_.gif
+\Bgrounds\wb02212_.gif
+\Bgrounds\wb02213_.gif
+\Bgrounds\wb02214_.gif
+\Bgrounds\wb02215_.gif
+\Bgrounds\wb02216_.gif
+\Bgrounds\wb02217_.gif
+\Bgrounds\wb02218_.gif
+\Bgrounds\wb02219_.gif
+\msdraw8.cnt
+\msdraw8.fts
+\msdraw8.gid
+\msdraw8.hlp
+\msdraw8a.exe
+\msdraw8a.opt
+\msgenbw.ppd
+\msgencol.ppd
+\setup\acmsetup.exe
+\setup\msd8int.dll
+\setup\pub5.stf
+
+[SAFE, RUNFROMNETCD95] "Microsoft Office 95"
+OFFICEROOT95DIR\odbcstf.dll
+
+[SAFE, SBFM97] "Small Business Financial Manager 97"
+SBFM97DIR\setup\offsetup.ttf
+
+[SAFE, WORD94] "Microsoft Word 6.0"
+STARTMENU94DIR\Word自述文件.lnk
+\对话框编辑器.lnk
+WORD94DIR\gram.ini
+\setup\acmsetup.ftg
+\setup\acmsetup.fts
+\wrdbasic.hlp
+
+[SAFE, WORD94, WORD95, WORD97] "Microsoft Word"
+STARTMENU94DIR\microsoft word 中文版.lnk
+
+[SAFE, WORD95] "Microsoft Word 95"
+HKLM\Software\Microsoft\New User Settings\Word\7.0
+MSAPPS9XDIR\proof\gr_br.lex
+OFFICEROOT95DIR\office\gram32.dll
+\templates\letters & faxes\fax wizard.wiz
+\templates\letters & faxes\letter wizard.wiz
+\templates\memos\memo wizard.wiz
+\templates\other documents\agenda wizard.wiz
+\templates\other documents\award wizard.wiz
+\templates\other documents\calendar wizard.wiz
+\templates\other documents\pleading wizard.wiz
+\templates\other documents\resume wizard.wiz
+\templates\other documents\table wizard.wiz
+\templates\publications\classic1.wzs
+\templates\publications\classic2.wzs
+\templates\publications\classic3.wzs
+\templates\publications\classic4.wzs
+\templates\publications\modern1.wzs
+\templates\publications\modern2.wzs
+\templates\publications\modern3.wzs
+\templates\publications\modern4.wzs
+\templates\publications\newsletter wizard.wiz
+SYSDIR\gram32.ini
+USER_MODIFIABLE_FILE=WORD95DIR\letters\adpr01.dot
+USER_MODIFIABLE_FILE=WORD95DIR\letters\cred01.dot
+USER_MODIFIABLE_FILE=WORD95DIR\letters\cred05.dot
+USER_MODIFIABLE_FILE=WORD95DIR\letters\cred11.dot
+USER_MODIFIABLE_FILE=WORD95DIR\letters\cstmrc01.dot
+USER_MODIFIABLE_FILE=WORD95DIR\letters\cstmrc03.dot
+USER_MODIFIABLE_FILE=WORD95DIR\letters\cstmrr03.dot
+USER_MODIFIABLE_FILE=WORD95DIR\letters\cstmrr05.dot
+USER_MODIFIABLE_FILE=WORD95DIR\letters\emprl02.dot
+USER_MODIFIABLE_FILE=WORD95DIR\letters\emprl03.dot
+USER_MODIFIABLE_FILE=WORD95DIR\letters\mktg02.dot
+USER_MODIFIABLE_FILE=WORD95DIR\letters\mktg07.dot
+USER_MODIFIABLE_FILE=WORD95DIR\letters\other10.dot
+USER_MODIFIABLE_FILE=WORD95DIR\letters\space03.dot
+USER_MODIFIABLE_FILE=WORD95DIR\letters\suppl14.dot
+WORD95DIR\setup\acme.exe
+\setup\acme.lst
+\setup\mscreate.dir
+\setup\wrd95.stf
+\setup\wrd95inv.dll
+\startup\powerup.dot
+
+[SAFE, WORD95, WORD97] "Microsoft Word"
+OFFICEROOT95DIR\Microsoft Word 安装程序.lnk
+
+[SAFE, WORD97] "Microsoft Word 97"
+HKLM\Software\Microsoft\Windows\Help\wdhtml8.aw
+HKLM\Software\Microsoft\Windows\Help\wdhtml8.cnt
+HKLM\Software\Microsoft\Windows\Help\wdhtml8.hlp
+HKLM\Software\Microsoft\Windows\Help\wdmain8.cnt
+HKLM\Software\Microsoft\Windows\Help\wdmain8.hlp
+HKLM\Software\Microsoft\Windows\Help\wdnew8.cnt
+HKLM\Software\Microsoft\Windows\Help\wdnew8.hlp
+HKLM\Software\Microsoft\Windows\Help\wdtip8.hlp
+OFFICEROOT97DIR\microsoft word 中文版安装程序.lnk
+\templates\eibun\letter wizard.wiz
+\templates\eibun\memo wizard.wiz
+\templates\letters & faxes\传真向导.wiz
+\templates\letters & faxes\信函向导.wiz
+\templates\local3\contemporary fax.dot
+\templates\local3\fax wizard.wiz
+\templates\local3\newsletter wizard.wiz
+\templates\local3\resume wizard.wiz
+\templates\memos\备忘录向导.wiz
+\templates\other documents\简历向导.wiz
+\templates\web pages\web 页向导.wiz
+\templates\web pages\其他资料.dot
+USER_MODIFIABLE_FILE=OFFICE97DIR\letters\adpr01.dot
+USER_MODIFIABLE_FILE=OFFICE97DIR\letters\cred01.dot
+USER_MODIFIABLE_FILE=OFFICE97DIR\letters\cred05.dot
+USER_MODIFIABLE_FILE=OFFICE97DIR\letters\cred11.dot
+USER_MODIFIABLE_FILE=OFFICE97DIR\letters\cstmrc01.dot
+USER_MODIFIABLE_FILE=OFFICE97DIR\letters\cstmrc03.dot
+USER_MODIFIABLE_FILE=OFFICE97DIR\letters\cstmrr03.dot
+USER_MODIFIABLE_FILE=OFFICE97DIR\letters\cstmrr05.dot
+USER_MODIFIABLE_FILE=OFFICE97DIR\letters\emprl02.dot
+USER_MODIFIABLE_FILE=OFFICE97DIR\letters\emprl03.dot
+USER_MODIFIABLE_FILE=OFFICE97DIR\letters\mktg02.dot
+USER_MODIFIABLE_FILE=OFFICE97DIR\letters\mktg07.dot
+USER_MODIFIABLE_FILE=OFFICE97DIR\letters\other10.dot
+USER_MODIFIABLE_FILE=OFFICE97DIR\letters\space03.dot
+USER_MODIFIABLE_FILE=OFFICE97DIR\letters\suppl14.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\eibun\blank document.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\eibun\contemporary letter.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\eibun\contemporary memo.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\eibun\elegant letter.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\eibun\elegant memo.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\eibun\professional letter.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\eibun\professional memo.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\letters & faxes\典雅型传真.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\letters & faxes\典雅型信函.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\letters & faxes\现代型传真.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\letters & faxes\现代型信函.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\letters & faxes\专业型传真.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\letters & faxes\专业型信函.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\local3\contemporary resume.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\local3\elegant fax.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\local3\elegant resume.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\local3\professional fax.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\local3\professional resume.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\memos\典雅型备忘录.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\memos\现代型备忘录.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\memos\专业型备忘录.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\other documents\address.doc
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\other documents\address.ldb
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\other documents\address.mdb
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\other documents\address.xls
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\other documents\典雅型简历.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\other documents\其他模板和向导.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\other documents\现代型简历.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\other documents\专业型简历.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\email.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\flame.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\hightech.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\midnight.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\ocean.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\rain.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\urgent.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\电子邮件模板.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\高科技型模板.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\海洋型模板.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\火焰型模板.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\紧急型模板.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\午夜型模板.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\outlook\细雨型模板.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\reports\典雅型报告.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\reports\公文向导.wiz
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\reports\实用文体向导.wiz
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\templates\reports\现代型报告.dot
+USER_MODIFIABLE_FILE=WORD97DIR\电子邮件模板.dot
+WORD95DIR\setup\acme.exe
+\setup\acme.lst
+\setup\mscreate.dir
+\setup\wrd95.stf
+\setup\wrd95inv.dll
+WORD97DIR\ wdmain8.gid
+\html\inlinemultimedia.twd
+\html\marqueelib.twd
+\power97.dot
+\web page templates\content\窗体-调查.doc
+\web page templates\content\窗体-反馈.doc
+\web page templates\content\窗体-注册.doc
+\web page templates\content\个人主页.doc
+\web page templates\content\简单版式.doc
+\web page templates\content\居中版式.doc
+\web page templates\content\两栏版式.doc
+\web page templates\content\目录.doc
+\web page templates\content\日历.doc
+\web page templates\content\三栏版式.doc
+\web page templates\styles\典雅风格.dot
+\web page templates\styles\丰收风格.dot
+\web page templates\styles\户外风格.dot
+\web page templates\styles\欢乐风格.dot
+\web page templates\styles\活泼风格.dot
+\web page templates\styles\社区风格.dot
+\web page templates\styles\现代风格.dot
+\web page templates\styles\专业风格.dot
+\wordmail\mapif1.cfg
+\wordmail\mapif1l.ico
+\wordmail\mapif1s.ico
+\高科技型模板.dot
+\海洋型模板.dot
+\火焰型模板.dot
+\紧急型模板.dot
+\午夜型模板.dot
+\细雨型模板.dot
+
+[SAFE, WORD97, PUBLISHER5] "Microsoft Publisher and Word"
+MSAPPS9XDIR\proof\mshy32.dll
+\proof\mshy_en.lex
+SHAREDDLL=MSAPPS9XDIR\proof\mshy32.dll

@@ -1,0 +1,145 @@
+<html dir="ltr"><head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="en-us"><META HTTP-EQUIV="assetid" CONTENT="HR01048335"><title>Microsoft Office Excel 2003 自述文件</title></head><body><h1>Microsoft Office Excel 2003 自述文件</h1><META HTTP-EQUIV="assetid" CONTENT="HR01048335"><title>Microsoft Office Excel 2003 自述文件</title>
+
+<style>
+<!--
+	h1	{font-size: 140%; margin-top: .4em;}
+	h2	{font-size: 120%; margin-top: .2em;}
+	h3	{font-size: 100%; margin-top: .2em; font-weight: bold;}
+	h4	{font-size: 100%; margin-top: .2em; font-weight: bold;}
+	h5	{font-size: 100%; margin-top: .2em; font-weight: bold;}
+	body	{bgcolor: #ffffff; font-family: Simsun, Tahoma, Arial, Helvetica, sans-serif; font-size: 75%; }
+	p	{font-size: 100%; margin-left: 2em;}
+	pre	{font-size: 100%; margin-left: 2em;}
+	ol	{font-size: 100%; margin-top: .5em; margin-left: 4em;}
+	ul	{font-size: 100%; margin-top: .5em;; margin-left: 4em;}
+	li	{margin-bottom: .7em; margin-left: 0em;}
+	table	{font-size: 100%; margin-top: 1em; margin-left: 2em;}
+	th	{text-align: left; background: #CCCCCC; margin: .25em; vertical-align: bottom;}
+	tr	{vertical-align: top;}
+	td	{margin: .25em; vertical-align: top; border-bottom: 1px solid #CCCCCC; }
+
+	
+-->
+</style>
+
+
+<h3>© 2003 Microsoft Corporation。保留所有权利。</h3><p>本文档提供有关 Microsoft Office Excel 2003 的最新信息。</p>
+<h3>如何使用本文档</h3>
+<p>若要在屏幕中查看自述文件，请将浏览器窗口最大化。若要打印自述文件，请单击工具栏上的<b class="bterm"></b>“打印”按钮。</p>
+<hr>
+<h2>目录</h2>
+
+<h3>使用 Microsoft Office Excel 2003</h3><p><a href="#InstallOWC10">安装 Office XP Web Components</a></p><p><a href="#DataTypeDisplay">Microsoft Windows SharePoint Services 2.0 和 Office Excel 2003 中的数据类型显示差异</a></p><p><a href="#SaveAsWebPage">在将工作表保存为具有交互功能的网页时，不会保存 XML 映射和 XML 列表</a></p><p><a href="#441229">不再支持 Microsoft XML Core Services (MSXML) 版本 3.0</a></p><p>
+<a href="#FuncChange">为便于列表而更改的 Office Excel 2003 中的功能</a></p><h3>常规使用问题</h3><p><a href="#Currency">Office Excel 2003 链接列表中的货币问题</a></p><p><a href="#WinForms">在 Windows 窗体上使用 Microsoft Office 2003 Web Components 时的问题处理事件</a></p><p><a href="#44125">某些 XPath 表达式生成非标准的导出 XML</a></p><p><a href="#441227">当区域中的一个或多个单元格映射到不重复的元素时，自动筛选不能正常运行</a></p><p><a href="#416853">在安装完 Microsoft Office 2003 后再安装 Office XP Web Components 将失去对 Microsoft Office 2003 Web .NET 编程性的支持</a></p><p><a href="#444522">将保存有用户名和密码的 Office 数据库连接文件(.odc)导入到 Spreadsheet Web Component 时属性变化</a></p><hr><h2>使用 Microsoft Office Excel 2003</h2><h3><a id="InstallOWC10" name="InstallOWC10">安装 Office XP Web Components</a></h3><p>Microsoft Office Professional 版本 2003 包含 Office 2003 Web Components (Owc11.msi) 和升级版的  Office XP Web Components (Owc10.msi) 的 Windows 安装程序包文件。两个 .msi 文件都位于安装光盘上，并且都包含在 Microsoft Office 2003 Setup 中（尽管它们不在 Microsoft Office 2003 Setup 用户界面中作为选项对最终用户公开）。Office 2003 Web Components 是默认安装的；但是只有当用户的计算机中已经安装以前版本的 Office XP Web Components 时，才会安装升级的 Office XP Web Components。</p><p> 
+
+如果要在没有安装以前版本的 Office XP Web Components 的计算机上手动安装升级的 Office XP 组件，可从安装光盘上直接运行 Owc10.msi。</p><p>
+
+如果使用依赖于 Office XP Web Components 的解决方案，同时正在部署到新的客户端（也就是说不升级），并且要执行自定义安装，那么您可确保 Office 2003 安装中包含升级的 Office XP Web Components，方法是：通过运行 Setup.exe 在命令行上设置 OWC10EXISTS 属性或在 Setup 设置文件 (Setup.ini) 中进行设置。</p><p>
+
+示例：</p><pre><code>OWC10EXISTS=1</code></pre><h3><a id="DataTypeDisplay" name="DataTypeDisplay">Microsoft Windows SharePoint Services 2.0 和 Office Excel 2003 中的数据类型显示差异</a></h3><p>
+
+
+
+Windows SharePoint Services 和 Office Excel 2003 中的数字显示精度有时候可能会不同。这仅影响已经在 Office Excel 2003 中进行更改的记录。尽管数字的显示方式可能不同，但是基础值的精度在 Windows SharePoint Services 和 Office Excel 2003 中将是相同的（SharePoint 列表中大于 15 位的数字除外）。这些数字在 Office Excel 2003 中会丢失精度。</p><h3><a id="SaveAsWebPage" name="SaveAsWebPage">在将工作表保存为具有交互功能的网页时，不会保存 XML 映射和 XML 列表</a></h3><pre></pre>
+
+<p>
+如果将包含 XML 映射或 XML 列表的 Excel 工作表保存为<b class="bterm"></b>“网页 (*.htm; *.html)”或<b class="bterm"></b>“单个文件网页 (*.mht; *.mhtml)”，并选中<b class="bterm"></b>“添加交互”，同时选中<b class="bterm"></b>“选择：工作表”选项（仅保存当前工作表），则 XML 映射或 XML 列表将不会与网页一起保存。</p><p>若要将 XML 映射或 XML 列表与交互网页一起保存，必须通过选中<b class="bterm"></b>“整个工作簿”选项来保存整个工作簿。这是因为 XML 映射信息（决定 XML 列表的信息）作为工作簿的一部分被保存，并且可以在多个工作表之间进行共享。</p><h3>
+
+<a id="441229" name="441229">不再支持 Microsoft XML Core Services (MSXML) 版本 3.0</a></h3><p>Office Excel 2003 仅可将 Microsoft XML Core Services (MSXML) 版本 5.0 用于处理 XML 数据。为了提高安全性，Excel 不再支持在打开使用旧的 XSL 命名空间的 XML 文件时，应用 XSL 样式表以便使用 MSXML 版本 3.0 来转换 XML 数据。例如，您可能已经使用此功能将 XML 数据加载为 HTML 或将 XML 转换为 XML 电子表格 (XMLSS)。Office Excel 2003 不再支持对包含默认处理指令的 XML 文件应用 XSL 转换，这些处理指令可使用旧的 XSL 语法和 MSXML 版本 3.0 将 XML 文件转换成 HTML 格式。</p><h3><a id="FuncChange" name="FuncChange">为便于列表而更改的 Office Excel 2003 中的功能</a></h3><p>
+为便于列表管理和提高列表完整性已经对现有 Excel 功能进行了一些更改。以下是对导航、区域选择和编辑等功能的更改，以及对其他功能的微小更改，这些更改可确保 Excel 列表包含所需的功能。</p><p><b class="bterm">列表内部的导航</b></p><p>
+
+Excel 中的列表可在较大的 Excel 电子表格内作为其中所包含的电子表格使用。例如，按 END+ 箭头键组合键时，则按照箭头键所指定的方向进行导航。而且，如果在列表的最右列按 TAB，则单元格指针重新定位至下一行的第一个单元格（最左侧）。</p><p><b class="bterm">列表区域选择边框</b></p><p>
+和数据透视表和电子表格本身一样，列表边框周围有一些区域，允许您执行结构性选择，例如选择列表中的整个行或列或选择整个列表。顶部和左侧列表边框内的区域便于实现此功能。当将鼠标指针移动到这些区域上方时，指针的形状更改说明用户可用的功能。</p><p><b class="bterm">移动列表中的选中区域</b></p><p>
+
+
+当鼠标指针移动到所选区域的边缘上方，或者当鼠标移动到列表边框的任何部分的上方时，显示<b class="bterm"></b>“移动所选内容”光标。如移动选定区域会破坏列表的完整性，您将无法进行此操作。可以更改行或列的顺序，可将行或列完全移出列表区域；但不能将行或列移动到与列表边框重叠的位置。</p><p> 
+
+在链接到 Windows SharePoint Services 的列表中移动数据，还有其他限制。</p><p><b class="bterm">编辑列表中的区域</b></p><p> 
+
+
+在列表中执行操作一般仅对列表本身起作用，而不是对列表中的电子表格的任何部分都起作用。当在列表中删除行或列时，只会删除列表内的行或列中的单元格。自动筛选功能除外，该操作可对电子表格内的所有行起作用。</p><p><b class="bterm">自动执行列表扩展</b></p><p>
+当在未链接列表的右边一列或下面一行的单元格中进行键入时，列表会自动进行扩展以便包含新数据。当列表扩展后，会显示智能标记以便您可取消自动扩展或修改设置以便完全禁用扩展。</p><p>
+
+此功能在默认情况下是打开的，也可以禁用它，方法是在<b class="ui"></b>“工具”菜单上，选择<b class="ui"></b>“自动更正选项”，然后在<b class="bterm"></b>“自动更正”对话框的<b class="bterm"></b>“键入时自动套用格式”选项卡上取消选中<b class="bterm"></b>“在列表中包含新行和列”复选框。</p><p><b class="bterm">列表尺寸控点</b></p><p>
+作为菜单命令以外的另一种选择，Excel 还提供直接的操作方法对列表进行大小调整。您可拖动位于列表边框右下角的尺寸控点，按列或按行调整大小。但是，一次拖动不能同时扩展列和行。</p><p><b class="bterm">编辑列表外的区域</b></p><p>
+
+
+需要注意的是，一般来说，当编辑列表以外的区域时，无法在包含列表内外的单元格的区域执行与区域相关的函数。</p><p>
+
+唯一例外的情况是，选择电子表格的整个行或列（不仅是列表）并删除它。在这种情况下，列表中的行或列数据也将被删除。只有当列表未链接到 Windows SharePoint Services 时才会出现这种情况。</p><p><b class="bterm">对其他功能的更改</b></p><p><b class="runinhead">排序选项</b>   在列表自动筛选下拉框中所显示的排序选项出现在所有自动筛选下拉框中，不论下拉框是否位于列表内。</p><p>
+
+<b class="runinhead">分类汇总函数</b>   分类汇总函数添加了一些便于在列表的总计行中进行分类汇总的新参数。分类汇总函数中的第一个参数指定所使用的总计类型（例如 Sum 和 Average 等）。这些参数在以前版本中编号为 1-10。</p><p>
+
+在 Excel 2003 中，这些参数已经被更改，对每个数增加 100、指定分类汇总函数在列表内部使用。下表显示了总计函数、其以前的参数，以及其当前参数（用于列表总计行中）。</p><p>
+
+对 Subtotal() 函数进行更改便于执行总计行计算：</p><table><tr><td><b class="bterm">总计函数</b></td><td>
+
+<b class="bterm">以前的参数</b></td><td>
+ <b class="bterm">列表分类汇总参数</b></td></tr><tr><td>Average
+ </td><td>Subtotal(1,&lt;range&gt;)</td><td> 
+ 
+
+ Subtotal(101,&lt;range&gt;)</td></tr><tr><td>Count Nums（计数）</td><td>Subtotal(2,&lt;range&gt;)</td><td>Subtotal(102,&lt;range&gt;)</td></tr><tr><td>Count</td><td>
+ 
+
+ 
+ 
+ 
+
+ Subtotal(3,&lt;range&gt;)</td><td>Subtotal(103,&lt;range&gt;)</td></tr><tr><td>Max</td><td>
+ 
+ 
+
+ Subtotal(4,&lt;range&gt;)</td><td>Subtotal(104,&lt;range&gt;)</td></tr><tr><td>Min</td><td>Subtotal(5,&lt;range&gt;)</td><td>Subtotal(105,&lt;range&gt;)</td></tr><tr><td>StDev（标准偏差）</td><td>Subtotal(7,&lt;range&gt;)</td><td>Subtotal(107,&lt;range&gt;)</td></tr><tr><td>Sum</td><td>
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Subtotal(9,&lt;range&gt;)</td><td>
+ Subtotal(109,&lt;range&gt;)</td></tr><tr><td>
+ 
+Var（方差）</td><td>
+ Subtotal(10,&lt;range&gt;)</td><td>
+ Subtotal(110,&lt;range&gt;)</td></tr><tr><td></td><td></td><td></td></tr></table>
+ 
+
+<p><b>注意</b>  这些分类汇总参数与早期版本的列表不兼容。</p><h2>常规使用问题</h2><h3><a id="Currency" name="Currency">Office Excel 2003 链接列表中的货币问题</a></h3><p>
+发布欧盟国家在欧洲货币机制建立以前的货币（货币符号或 ISO 代码）将导致数字数据类型，而不是货币。这是可以预见的结果。</p><p>
+
+Excel 支持某些 Windows SharePoint Services 不支持的货币符号。Excel 2003 将这些不受支持的货币作为数字发布到 SharePoint 网站。</p><p>
+
+更改链接列表中的货币类型将不会更改服务器上的货币类型。这与最初的设计相符。</p><h3>
+
+<a id="WinForms" name="WinForms">在 Windows 窗体上使用 Microsoft Office 2003 Web Components 时的问题处理事件</a></h3><p>若要在 .NET Windows 窗体上为 Microsoft Office 2003 Web Component 处理事件，必须修改 Microsoft Visual Studio® .NET 为组件所生成的包装类。可以通过使用以下知识库中的 Office XP Web Components 的技术性文档解决此问题：“319341- HOW TO: Handle Events for the Office XP Spreadsheet Component on a Windows Form in Visual C# .NET”（在 Visual C# .NET 中的 Windows 窗体上处理 Office XP 电子表格组件的事件）和“319342 - HOW TO: Handle Events for the Office XP Spreadsheet Component on a Windows Form in Visual Basic .NET”（在 Visual Basic .NET 中的 Windows 窗体上处理 Office XP 电子表格组件的事件）。</p><h3>
+
+<a id="44125" name="44125">某些 XPath 表达式生成非标准的导出 XML</a></h3><p>您可使用 Office Excel 2003 对象模型创建代码以便将 XML 元素映射到单元格，该映射中的 XPath 表达式包含属性筛选器。在某些情况下，在导出 XML 时可能会创建非标准的 XML。请避免执行以下操作：</p><ul><li>使用对象模型将属性映射到单元格，在该单元格中 XPath 表达式不包含谓词表达式（例如，/Root/Element@Attribute 映射到单元格 A1），然后使用对象模型将相同的属性映射到其他单元格，在这些单元格中 XPath 表达式包含谓词表达式（例如，/Root/Element[@Attribute='Value'] 映射到单元格 A2）。</li><li>不一致地使用空格或混合使用双引号 (") 和单引号 (') 分隔符，这样做可能导致相同的 XPath 表达式在 XML 映射中被映射多次。</li></ul><h3>
+
+<a id="441227" name="441227">当区域中的一个或多个单元格映射到不重复的元素时，自动筛选不能正常运行</a></h3><p>如果对包含映射到不重复的元素的一个或多个单元格的数据区域使用自动筛选，则自动筛选的运行可能会出现意外。如果无法看见蓝色边框（表示有哪些单元格被映射到不重复的 XML 元素），则可能会造成一定的混乱。</p> 
+
+  
+    
+
+    
+    
+    
+
+
+
+
+
+ 
+
+
+      
+ 
+
+<h3><a id="416853" name="416853">在安装完 Microsoft Office 2003 后再安装 Office XP Web Components 将失去对 Microsoft Office 2003 Web .NET 编程性的支持</a></h3><p>如果您的计算机已经安装 Microsoft .NET Framework 1.1 和包含 Microsoft Office 2003 Web Components .NET 可编程性支持的 Microsoft Office 2003，然后又安装了 Microsoft Office XP Web Components（运行 OWC10.msi）， Microsoft Office 2003 Web Components .NET 可编程性支持将不再正常工作。</p><p>Microsoft Office 2003 Web Components .NET 可编程性支持安装和注册 Microsoft Office 2003 Web Components 主要 interop 程序集 (PIA)，该程序集将用于在 Microsoft Visual Studio .NET 中通过托管代码使用 Microsoft Office 2003 Web Components COM 类型库。在安装 Microsoft Office 2003 之后安装 Microsoft Office XP Web Components 将引起 PIA 注册不正确。</p><p>您可确认 Microsoft Office 2003 Web Components PIA 是否安装在计算机上，方法是打开 C:\Windows\Assembly 文件夹。您应该看到 <b class="bterm">Microsoft.Office.Interop.Owc11</b>。</p><p>若要改正此错误，请重新运行 Microsoft Office 2003 Setup，选择<b class="bterm"></b>“添加或删除功能”，然后单击<b class="bterm"></b>“下一步”。选择<b class="bterm"></b>“选择应用程序的高级自定义”，再单击<b class="bterm"></b>“下一步”。展开<b class="bterm"></b>“Office 共享功能”，接着展开<b class="bterm"></b>“Office 2003 Web Components”，然后单击<b class="bterm"></b>“.NET 可编程性支持”，再选择<b class="bterm"></b>“从本机运行”，单击<b class="bterm"></b>“更新”。</p><h3><a id="444522" name="444522">将保存有用户名和密码的 Office 数据库连接文件(.odc)导入到 Spreadsheet Web Component 时属性变化</a></h3><p>Microsoft Office 2002 Web Components 中的电子表格 Web 组件令您可直接导入保存有用户名和密码的 Office 数据库连接 (.odc) 文件，而不需要在“导入向导”的最后一页上选中<b class="bterm"></b>“在文件中保存密码”复选框。但是，Microsoft Office 2003 Web Components 中的电子表格 Web 组件现在需要在“导入向导”中选中<b class="bterm"></b>“在文件中保存密码”复选框，如果不这样，将显示验证错误。在这两种情况下，在 Office 数据库连接 (.odc) 文件中保存安全凭证是不安全的操作。Microsoft 建议使用 Windows 身份验证。</p></body></html>
